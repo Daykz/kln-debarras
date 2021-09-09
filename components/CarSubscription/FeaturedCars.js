@@ -37,8 +37,8 @@ class FeaturedCars extends Component {
             <section className="featured-cars ptb-100 bg-f5fbff">
                 <div className="container">
                     <div className="car-subscription-section-title">
-                        <span>Featured Cars?</span>
-                        <h2>Featured Cars for Subscription</h2>
+                        <span>Portfolio</span>
+                        <h2>Un petit exemple de nos travaux passés</h2>
                     </div>
 
                     <div className="row">
@@ -48,44 +48,66 @@ class FeaturedCars extends Component {
                         >
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-featured-cars">
-                                    <img src="/images/featured-cars1.jpg" alt="cars" />
+                                    <img src="/images/cata1.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
-                                        <h3><a href="#">2015 Toyota Corolla</a></h3>
-                                        <span>from $450/mo</span>
+                                        <h3><a href="#">Soissons 2021</a></h3>
+                                        <span>Avant</span>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-featured-cars">
-                                    <img src="/images/featured-cars2.jpg" alt="cars" />
+                                    <img src="/images/cata2.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
-                                        <h3><a href="#">2015 Toyota Corolla</a></h3>
-                                        <span>from $450/mo</span>
+                                        <h3><a href="#">Soissons 2021</a></h3>
+                                        <span>Avant</span>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-featured-cars">
-                                    <img src="/images/featured-cars3.jpg" alt="cars" />
+                                    <img src="/images/cata3.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
-                                        <h3><a href="#">2015 Toyota Corolla</a></h3>
-                                        <span>from $450/mo</span>
+                                        <h3><a href="#">Soissons 2021</a></h3>
+                                        <span>Après</span>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-featured-cars">
-                                    <img src="/images/featured-cars2.jpg" alt="cars" />
+                                    <img src="/images/cata4.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
-                                        <h3><a href="#">2015 Toyota Corolla</a></h3>
-                                        <span>from $450/mo</span>
+                                        <h3><a href="#">Soissons 2021</a></h3>
+                                        <span>Après</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-12 col-md-12">
+                                <div className="single-featured-cars">
+                                    <img src="/images/cata5.jpg" alt="cars" />
+
+                                    <div className="featured-cars-content">
+                                        <h3><a href="#">Soissons 2021</a></h3>
+                                        <span>Après</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-12 col-md-12">
+                                <div className="single-featured-cars">
+                                    <img src="/images/cata6.jpg" alt="cars" />
+
+                                    <div className="featured-cars-content">
+                                        <h3><a href="#">Soissons 2021</a></h3>
+                                        <span>Après</span>
                                     </div>
                                 </div>
                             </div>

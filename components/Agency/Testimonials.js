@@ -39,8 +39,8 @@ class Testimonials extends Component {
             <section id="testimonials" className="feedback-area ptb-100">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Our customer feedback</h2>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <h2>Le retour de nos magnifiques clients</h2>
+                        <p>Autant vous le demander directement ! Voici un petit echantillon de ce que vous avez pensez de nous !</p>
                     </div>
 
                     <div className="row">
@@ -51,11 +51,11 @@ class Testimonials extends Component {
                             <div className="col-lg-12 col-md-12">
                                 <div className="feedback-item">
                                     <img src='/images/client1.png' alt="client" />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                    <p>équipe très sympathique et efficace, ma nièce me les a conseillé et c'est bien la seule fois qu'elle a été de bon conseil lol</p>
 
                                     <div className="client-info">
-                                        <h3>Jason Sthatham</h3>
-                                        <span>CEO ThemeForest</span>
+                                        <h3>Martine Daveu</h3>
+                                        <span>Loir-et-Cher (41)</span>
                                     </div>
 
                                     <i className="fas fa-quote-left"></i>
@@ -65,11 +65,11 @@ class Testimonials extends Component {
                             <div className="col-lg-12 col-md-12">
                                 <div className="feedback-item">
                                     <img src='../../images/client2.png' alt="client" />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                    <p>Un crew diablement efficace en plus d'être très drôle. C'est limite si j'ai passé un bon moment à vider la maison familial... Je recommande fortement !</p>
 
                                     <div className="client-info">
-                                        <h3>Steven Smith</h3>
-                                        <span>CEO EnvyTheme</span>
+                                        <h3>Thibault Garez</h3>
+                                        <span>Indre et Loire (37)</span>
                                     </div>
 
                                     <i className="fas fa-quote-left"></i>
@@ -79,11 +79,11 @@ class Testimonials extends Component {
                             <div className="col-lg-12 col-md-12">
                                 <div className="feedback-item">
                                     <img src='../../images/client3.png' alt="client" />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                    <p>equipe gentille . du bon travail de fait . mrci beaucoup .</p>
 
                                     <div className="client-info">
-                                        <h3>David Warner</h3>
-                                        <span>CEO Company</span>
+                                        <h3>David W.</h3>
+                                        <span>Eure (18)</span>
                                     </div>
 
                                     <i className="fas fa-quote-left"></i>

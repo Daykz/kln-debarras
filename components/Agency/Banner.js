@@ -20,21 +20,13 @@ class Banner extends Component {
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="main-banner-content">
-                                    <h1>Ultimate Platform to monitor your best workflow.</h1>
-                                    <p>It should be noted that although application software is thought of as a program, it can be anything that runs on a computer.</p>
+                                    <h1>Le meilleur service de débarras de la région centre !</h1>
+                                    <p>Découvrez dès maintenant notre équipe, nos méthodes de travail et jusqu'a ou vous pouvez profiter de nos services !</p>
                                     
                                     <div className="btn-box">
                                         <Link href="#contact">
-                                            <a className="btn btn-primary">Get Started</a>
+                                            <a className="btn btn-primary">Contactez-nous !</a>
                                         </Link>
-
-                                        <div 
-                                            className="popup-youtube video-btn"
-                                            onClick={e => {e.preventDefault(); this.openModal()}}
-                                        >
-                                            <i className="fab fa-google-play"></i> 
-                                            Watch our video
-                                        </div>
                                     </div>
                                 </div>
                             </div>

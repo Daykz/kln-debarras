@@ -18,40 +18,25 @@ class Cta extends Component {
                 <section className="cta-area ptb-100 jarallax pb-0">
                     <div className="container">
                         <div className="cta-content">
-                            <h2>We always try to quality work</h2>
-                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                           
-                            <div
-                                className="popup-youtube video-btn"
-                                onClick={e => {e.preventDefault(); this.openModal()}}
-                            >
-                                <i className="fas fa-play"></i>
-                            </div>
+                            <h2>Donations</h2>
+                            <p>Voici les organismes les plus célèbres pour la récupération d'objet, nous travaillons avec eux depuis un certain temps. Si vous en avez d'autres à proposer, n'hésitez surtout pas !</p>
                         </div>
 
                         <div className="cta-inner-content">
                             <div className="row justify-content-center">
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-cta-box">
-                                        <i className="fas fa-layer-group"></i>
-                                        <h3>Modern Design</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                    <img src='/images/emmaus.png' alt="image" />
+                                        <h3>Emmaus</h3>
+                                        <p>Fidèle à la volonté de l'abbé Pierre, Emmaüs est devenu à la fois une fabrique d'innovations sociales et de solidarités pour aider des publics en situation de grande précarité, et un front engagé et militant en faveur d'une société plus humaine et plus juste.</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-cta-box">
-                                        <i className="fas fa-fighter-jet"></i>
-                                        <h3>Fast Loading</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="single-cta-box">
-                                        <i className="fas fa-broom"></i>
-                                        <h3>Clean Code</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                    <img src='/images/secours-populaire.png' alt="image" />
+                                        <h3>Secours Populaire</h3>
+                                        <p>Le Secours populaire français a une approche globale des problématiques de pauvreté. Il intervient dans les domaines de l'aide alimentaire, vestimentaire, l'accès et le maintien dans le logement, l'accès aux soins, l'insertion socioprofessionnelle, l'accès à la culture et plus généralement l'accès aux droits.</p>
                                     </div>
                                 </div>
                             </div>

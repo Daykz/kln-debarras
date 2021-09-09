@@ -87,7 +87,7 @@ class Navbar extends Component {
                                         className="nav-link active" 
                                         href="#home"
                                     >
-                                        Home
+                                        menu
                                     </AnchorLink>
                                 </li>
                                 <li className="nav-item">
@@ -97,7 +97,7 @@ class Navbar extends Component {
                                         className="nav-link" 
                                         href="#about"
                                     >
-                                        About
+                                        En profondeur
                                     </AnchorLink>
                                 </li>
                                 <li className="nav-item">
@@ -107,7 +107,7 @@ class Navbar extends Component {
                                         className="nav-link" 
                                         href="#features"
                                     >
-                                        Features
+                                        Foire aux questions
                                     </AnchorLink>
                                 </li>
                                 <li className="nav-item">
@@ -117,7 +117,7 @@ class Navbar extends Component {
                                         className="nav-link" 
                                         href="#testimonials"
                                     >
-                                        Testimonials
+                                        Commentaires
                                     </AnchorLink>
                                 </li>
                                 <li className="nav-item">

@@ -8,14 +8,14 @@ class About extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="about-image">
-                                <img src='/images/about-img1.jpg' alt="image" />
+                                <img src='/images/grenier.jpg' alt="image" />
                             </div>
                         </div>
 
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content pl-15">
-                                <h2>Make your website more powerful</h2>
-                                <p>We Design & Develop Websites that stand out of the crowd. Alea is an extremely feature rich, beautiful WordPress Template.</p>
+                                <h2>Tous les détails de notre service !</h2>
+                                <p><b>KLN débarras</b> est un <b>service professionel specialisé dans le débarassage</b>. Que ce soit pour un <strong>vide-maison</strong> ou simplement votre <strong>grenier</strong>, votre <strong>appartement</strong> en plein centre ville d'Orléans ou votre <strong>villa</strong> aux alentours de Tours <b>nous sommes la pour faire de cette corvé un simple mauvais souvenir</b>.<br/> Laissez moi vous expliquez : Vous venez de <b>refaire votre salon</b> et vous ne savez pas quoi faire du <b>vieux canapé</b> ? Vous et votre famille de 8 personnes <b>emmenagés dans votre nouvelle maison</b>, une fois installé que faire de <b>tout ces cartons</b> ? Le <b>grenier de la maison parentale</b> n'a pas été touché depuis les années 80 et vous etes bien décidé à le <b>vider une bonne fois pour toute</b> ?<br/> <b>Tout cela à l'air bien ennuyant.</b> Il faudrait louer un camion, contacter des amis ou de la famille pour un peu d'aide... <strong>Ou faire appel à des spécialistes</strong>. à vrai dire les meilleurs de votre région.</p>
 
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6">
@@ -25,10 +25,10 @@ class About extends Component {
                                                     <i className="fas fa-desktop"></i>
                                                 </div>
 
-                                                <h3>Friendly Interface</h3>
+                                                <h3>Appelez-nous !</h3>
                                             </div>
 
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                            <p>Ou envoyez nous un émail, un sms... On fait le point sur ce que vous voulez débarasser, ce que vous voulez en faire et sous quel délai vous en avez besoin ! </p>
                                         </div>
                                     </div>
 
@@ -39,10 +39,10 @@ class About extends Component {
                                                     <i className="fas fa-tasks"></i>
                                                 </div>
 
-                                                <h3>powerful Options</h3>
+                                                <h3>Devis</h3>
                                             </div>
 
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                            <p>Suite aux informations que vous nous transmettrez, nous serons en mesure de vous fournir un devis gratuit et sans engagement.</p>
                                         </div>
                                     </div>
 
@@ -53,10 +53,10 @@ class About extends Component {
                                                     <i className="fas fa-code"></i>
                                                 </div>
 
-                                                <h3>Organized Code</h3>
+                                                <h3>débarras</h3>
                                             </div>
 
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                            <p>Toujours à l'heure, nous arriverons pour vider et trier les emcombrants : tout ce qui doit être jeter sera emmené en déchéterie, ce qui est encore utilisable sera soit vendu soit donner a des associations.</p>
                                         </div>
                                     </div>
 
@@ -67,15 +67,13 @@ class About extends Component {
                                                     <i className="fas fa-headset"></i>
                                                 </div>
 
-                                                <h3>Premium Support</h3>
+                                                <h3>Satisfaction Client</h3>
                                             </div>
 
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                            <p>Votre satisfaction est primordiale, nous nous engageons à effectuer un travail correspondant à vos attentes dans les plus bref delais</p>
                                         </div>
                                     </div>
                                 </div>
-
-                                <a href="#" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
                     </div>

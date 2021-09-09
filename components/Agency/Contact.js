@@ -6,8 +6,8 @@ class Contact extends Component {
             <section id="contact" className="contact-area ptb-100 bg-f9f9f9">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Contact Us</h2>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <h2>Nous contactez</h2>
+                        <p>Que ce soit par mail ou directement par appel téléphonique n'hésitez pas à prendre contacte avec nous !.</p>
                     </div>
 
                     <div className="row align-items-center">
@@ -16,7 +16,7 @@ class Contact extends Component {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6">
                                         <div className="form-group">
-                                            <label>Name</label>
+                                            <label>Nom</label>
                                             <input type="text" className="form-control" required={true} />
                                         </div>
                                     </div>
@@ -30,27 +30,27 @@ class Contact extends Component {
 
                                     <div className="col-lg-6 col-md-6">
                                         <div className="form-group">
-                                            <label>Subject</label>
+                                            <label>Demande</label>
                                             <input type="text" className="form-control" required={true} />
                                         </div>
                                     </div>
 
                                     <div className="col-lg-6 col-md-6">
                                         <div className="form-group">
-                                            <label>Phone Number</label>
+                                            <label>Téléphone</label>
                                             <input type="text" className="form-control" required={true} />
                                         </div>
                                     </div>
 
                                     <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
-                                            <label>Message</label>
+                                            <label>En détails</label>
                                             <textarea className="form-control" cols="30" rows="4" required={true} />
                                         </div>
                                     </div>
 
                                     <div className="col-lg-12 col-md-12">
-                                        <button type="submit" className="btn btn-primary">Send Message</button>
+                                        <button type="submit" className="btn btn-primary">Envoyez message</button>
                                     </div>
                                 </div>
                             </form>
@@ -70,21 +70,21 @@ class Contact extends Component {
                                         <i className="fas fa-envelope"></i>
                                         <span>Email:</span>
                                         
-                                        <a href="mailto:support@ganial.com">support@ganial.com</a>
+                                        <a href="mailto:support@ganial.com">klm.debarras@gmail.com</a>
                                     </li>
 
                                     <li>
                                         <i className="fas fa-phone"></i>
                                         <span>Phone:</span>
                                         
-                                        <a href="tel:2242288475">(224) 228-8475</a>
+                                        <a href="tel:2242288475">07 69 77 32 62</a>
                                     </li>
 
                                     <li>
                                         <i className="fas fa-globe"></i>
                                         <span>Website:</span>
                                         
-                                        <a href="#">www.ganial.com</a>
+                                        <a href="#">extinction.fr</a>
                                     </li>
                                 </ul>
                             </div>
