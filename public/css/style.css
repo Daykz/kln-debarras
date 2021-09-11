@@ -540,7 +540,7 @@ Navbar CSS
   padding: 0 7px;
   position: relative;
   text-transform: lowercase;
-  color: #ffffff;
+  color: #c5cae9;
   z-index: 1;
   font-size: 15px;
   font-weight: 600;
@@ -560,7 +560,7 @@ Navbar CSS
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
-  background: url(/images/color-bar.png);
+  background: url(/images/bar.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -997,7 +997,7 @@ Main Banner CSS
   height: 100vh;
   position: relative;
   z-index: 1;
-  background-image: url(/images/nueva-flota-camiones-volvo.jpg);
+  background-image: url(/images/principal2.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

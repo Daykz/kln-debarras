@@ -18,20 +18,20 @@ class Footer extends Component {
                                 </div>
         
                                 <ul className="contact-info">
-                                    <li>1828 Johns Drive Glenview, IL 60025</li>
+                                    <li>Une adresse que je n'ai pas encore</li>
                                     <li>
-                                        <Link href="tel:2242288475">
-                                            <a>(224) 228-8475</a>
+                                        <Link href="tel:0769773262">
+                                            <a>07 69 77 32 62</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="mailto:support@genial.com">
-                                            <a>support@genial.com</a>
+                                        <Link href="mailto:klm.debarras@gmail.com">
+                                            <a>klm.debarras@gmail.com</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="#">
-                                            <a>www.genial.com</a>
+                                            <a>kln-debarras.fr</a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -40,7 +40,7 @@ class Footer extends Component {
 
                         <div className="col-lg-2 col-sm-6">
                             <div className="single-footer-widget pl-3">
-                                <h3>Quick Links</h3>
+                                <h3>Lien rapide</h3>
         
                                 <ul className="list">
                                     <li>
@@ -49,23 +49,23 @@ class Footer extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Features</a>
+                                        <Link href="#about">
+                                            <a>En profondeur</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Screenshots</a>
+                                        <Link href="#features">
+                                            <a>F.A.Q</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Pricing</a>
+                                        <Link href="#testimonials">
+                                            <a>Commentaires</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>News</a>
+                                        <Link href="#contact">
+                                            <a>Nous contactez</a>
                                         </Link>
                                     </li>
                                 </ul>

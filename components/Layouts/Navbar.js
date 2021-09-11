@@ -58,12 +58,6 @@ class Navbar extends Component {
             <>
                 <nav id="navbar" className="navbar navbar-expand-lg navbar-style-one navbar-light bg-light">
                     <div className="container">
-                        <Link href="/agency">
-                            <a className="navbar-brand">
-                                <img src="/images/white-logo.png" alt="logo" />
-                                <img src='/images/black-logo.png' alt="logo" />
-                            </a>
-                        </Link>
 
                         <button 
                             onClick={this.toggleNavbar}
@@ -105,7 +99,7 @@ class Navbar extends Component {
                                         onClick={this.toggleNavbar} 
                                         offset={() => 0} 
                                         className="nav-link" 
-                                        href="#features"
+                                        href="#Question"
                                     >
                                         Foire aux questions
                                     </AnchorLink>
@@ -125,36 +119,10 @@ class Navbar extends Component {
                                         onClick={this.toggleNavbar} 
                                         offset={() => -10} 
                                         className="nav-link" 
-                                        href="#pricing"
-                                    >
-                                        Pricing
-                                    </AnchorLink>
-                                </li>
-                                <li className="nav-item">
-                                    <AnchorLink 
-                                        onClick={this.toggleNavbar} 
-                                        offset={() => -10} 
-                                        className="nav-link" 
-                                        href="#blog"
-                                    >
-                                        News
-                                    </AnchorLink>
-                                </li>
-                                <li className="nav-item">
-                                    <AnchorLink 
-                                        onClick={this.toggleNavbar} 
-                                        offset={() => -10} 
-                                        className="nav-link" 
                                         href="#contact"
                                     >
                                         Contact
                                     </AnchorLink>
-                                </li>
-                            </ul>
-
-                            <ul className="others-option">
-                                <li>
-                                    <a href="/signin" className="btn btn-primary">sign in</a>
                                 </li>
                             </ul>
                         </div>

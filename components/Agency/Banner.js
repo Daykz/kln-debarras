@@ -20,12 +20,12 @@ class Banner extends Component {
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="main-banner-content">
-                                    <h1>Le meilleur service de débarras de la région centre !</h1>
-                                    <p>Découvrez dès maintenant notre équipe, nos méthodes de travail et jusqu'a ou vous pouvez profiter de nos services !</p>
+                                    <h1>Le service au Centre de vos débarras !</h1>
+                                    <p>Devis gratuit et sans engagement. Plus d'informations juste en dessous !</p>
                                     
                                     <div className="btn-box">
                                         <Link href="#contact">
-                                            <a className="btn btn-primary">Contactez-nous !</a>
+                                            <a className="btn btn-primary">07 69 77 32 62</a>
                                         </Link>
                                     </div>
                                 </div>
