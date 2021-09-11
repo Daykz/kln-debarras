@@ -17,11 +17,14 @@ class Navbar extends Component {
     componentDidMount() {
         this._isMounted = true;
         let elementId = document.getElementById("navbar");
+        let elementLogo = document.getElementById("logo-navbar");
         document.addEventListener("scroll", () => {
             if (window.scrollY > 170) {
                 elementId.classList.add("is-sticky");
+                elementLogo.classList.add("logo-sticky");
             } else {
                 elementId.classList.remove("is-sticky");
+                elementLogo.classList.remove("logo-sticky");
             }
         });
         window.scrollTo(0, 0);
@@ -54,11 +57,16 @@ class Navbar extends Component {
         const { collapsed } = this.state;
         const classOne = collapsed ? 'collapse navbar-collapse' : 'navbar-collapse collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
+        console.log({collapsed})
         return (
             <>
                 <nav id="navbar" className="navbar navbar-expand-lg navbar-style-one navbar-light bg-light">
                     <div className="container">
-
+                            <span id='logo-navbar' className='logo-title'>KLN Debarras</span>
+                    {/* <Link href="/">
+                            <a className="navbar-brand">
+                            </a>
+                        </Link> */}
                         <button 
                             onClick={this.toggleNavbar}
                             className={classTwo} 
