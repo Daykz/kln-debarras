@@ -6,7 +6,6 @@ import About from '../components/Agency/About';
 import Research from '../components/Agency/Research';
 import Cta from '../components/Agency/Cta';
 import Testimonials from '../components/Agency/Testimonials';
-import Contact from '../components/Agency/Contact';
 
 class Index extends Component {
     render() {
@@ -18,7 +17,6 @@ class Index extends Component {
                 <Research />
                 <Cta />
                 <Testimonials />
-                <Contact />
                 <Footer />
             </>
         );

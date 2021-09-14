@@ -9,13 +9,7 @@ class Footer extends Component {
                     <div className="row">
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-footer-widget">
-                                <div className="logo">
-                                    <Link href="/">
-                                        <a>
-                                            <img src='/images/black-logo.png' alt="logo" />
-                                        </a>
-                                    </Link>
-                                </div>
+
         
                                 <ul className="contact-info">
                                     <li>Une adresse que je n'ai pas encore</li>
@@ -34,6 +28,7 @@ class Footer extends Component {
                                             <a>kln-debarras.fr</a>
                                         </Link>
                                     </li>
+                                    <li>0000000</li>
                                 </ul>
                             </div>
                         </div>
@@ -71,74 +66,7 @@ class Footer extends Component {
                                 </ul>
                             </div>
                         </div>
-
-                        <div className="col-lg-3 col-sm-6">
-                            <div className="single-footer-widget pl-5">
-                                <h3>Support</h3>
-        
-                                <ul className="list">
-                                    <li>
-                                        <Link href="#">
-                                            <a>Quick Support</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Privacy Policy</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Copyright</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Terms & Conditions</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Testimonials</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-sm-6">
-                            <div className="single-footer-widget">
-                                <h3>My Account</h3>
-
-                                <ul className="list">
-                                    <li>
-                                        <Link href="#">
-                                            <a>Managed Account</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Create Account</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Download Software</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Support Center</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Account Security</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
 
@@ -146,33 +74,10 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-md-7">
-                                <p><i className="far fa-copyright"></i> 2021 Genial. All Rights Reserved</p>
+                                <p><i className="far fa-copyright"></i> 2021 KLN-Debarras. Tout droit réservé.</p>
                             </div>
 
-                            <div className="col-lg-5 col-md-5">
-                                <ul>
-                                    <li>
-                                        <Link href="#">
-                                            <a target="_blank"><i className="fab fa-facebook-f"></i></a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a target="_blank"><i className="fab fa-twitter"></i></a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a target="_blank"><i className="fab fa-instagram"></i></a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a target="_blank"><i className="fab fa-linkedin-in"></i></a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

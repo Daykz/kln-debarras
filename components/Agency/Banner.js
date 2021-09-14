@@ -24,7 +24,7 @@ class Banner extends Component {
                                     <p>Devis gratuit et sans engagement. Plus d'informations juste en dessous !</p>
                                     
                                     <div className="btn-box">
-                                        <Link href="#contact">
+                                        <Link href="tel:0769773262">
                                             <a className="btn btn-primary">07 69 77 32 62</a>
                                         </Link>
                                     </div>

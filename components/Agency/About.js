@@ -15,14 +15,14 @@ class About extends Component {
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content pl-15">
                                 <h2>Tous les détails de notre service !</h2>
-                                <p><b>KLN débarras</b> est un service professionel specialisé dans le débarassage. Que ce soit pour un <strong>vide-maison</strong> ou simplement votre <strong>grenier</strong>, votre <strong>appartement</strong> en plein centre ville d'Orléans ou votre <strong>villa</strong> aux alentours de Tours <b>nous sommes la pour faire de cette corvé un simple mauvais souvenir</b>.<br/><br/> Laissez moi vous expliquez : Vous venez de refaire votre salon et vous ne savez pas quoi faire du vieux canapé ? Vous et votre famille emmenagés dans votre nouvelle maison, une fois installé que faire de tout ces cartons ? Le grenier de la maison parentale n'a pas été touché depuis les années 80 et vous etes bien décidé à le vider une bonne fois pour toute ?<br/> <b>Tout cela à l'air bien ennuyant.</b> Il faudrait louer un camion, contacter des amis ou de la famille pour un peu d'aide... <strong>Ou faire appel à des spécialistes</strong>.</p>
+                                <p class="queseeso"><b>KLN débarras</b> est un service professionel specialisé dans le débarassage. Que ce soit pour un <strong>vide-maison</strong> ou simplement votre <strong>grenier</strong>, votre <strong>appartement</strong> en plein centre ville d'Orléans ou votre <strong>villa</strong> aux alentours de Tours <b>nous sommes la pour faire de cette corvé un simple mauvais souvenir</b>.<br/><br/> Laissez moi vous expliquez : Vous venez de refaire votre salon et vous ne savez pas quoi faire du vieux canapé ? Vous et votre famille emmenagés dans votre nouvelle maison, une fois installé que faire de tout ces cartons ? Le grenier de la maison parentale n'a pas été touché depuis les années 80 et vous etes bien décidé à le vider une bonne fois pour toute ?<br/> <b>Tout cela à l'air bien ennuyant.</b> Il faudrait louer un camion, contacter des amis ou de la famille pour un peu d'aide... <strong>Ou faire appel à des spécialistes</strong>.</p>
 
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <i className="fas fa-desktop"></i>
+                                                    <img src='/images/phone-call.png' alt="image" height="25px" width="25px" />
                                                 </div>
 
                                                 <h3>Appelez-nous !</h3>
@@ -36,7 +36,7 @@ class About extends Component {
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <i className="fas fa-tasks"></i>
+                                                    <img src='/images/document.png' alt="image" height="25px" width="25px" />
                                                 </div>
 
                                                 <h3>Devis</h3>
@@ -50,7 +50,7 @@ class About extends Component {
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <i className="fas fa-code"></i>
+                                                    <img src='images/cardboard.png' alt="images" width="25px" height="25px"/>
                                                 </div>
 
                                                 <h3>débarras</h3>
@@ -64,7 +64,7 @@ class About extends Component {
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <i className="fas fa-headset"></i>
+                                                    <img src="images/smiley.png" alt="images" width="25px" height="25px" />
                                                 </div>
 
                                                 <h3>Satisfaction Client</h3>
@@ -79,9 +79,7 @@ class About extends Component {
                     </div>
                 </div>
 
-                <div className="circle">
-                    <img src='/images/circle.png' alt="cricle" />
-                </div>
+
             </section>
         );
     }

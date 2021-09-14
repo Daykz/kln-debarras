@@ -39,7 +39,7 @@ class Testimonials extends Component {
             <section id="testimonials" className="feedback-area ptb-100">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Le retour de nos magnifiques clients</h2>
+                        <h2>Le retour de nos clients</h2>
                         <p>Autant vous le demander directement ! Voici un petit echantillon de ce que vous avez pensez de nous !</p>
                     </div>
 

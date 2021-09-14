@@ -34,7 +34,7 @@ Default CSS
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 $font-family: 'Montserrat', sans-serif;
-$main-color: #ff3366;
+$main-color: #ff743383;
 $white-color: #ffffff;
 $paragraph-color: #646464;
 $black-color: #000000;
@@ -1150,12 +1150,12 @@ Main Banner CSS
     .btn-box {
         .video-btn {
             display: inline-block;
-            color: #999999;
+            color: #f5650598;
             margin-left: 30px;
             width: 45px;
             height: 45px;
             line-height: 43px;
-            border: 1px solid #999999;
+            border: 1px solid #f5650598;
             border-radius: 50%;
             text-align: center;
             position: relative;
@@ -1864,14 +1864,7 @@ About CSS
     position: relative;
     z-index: 1;
 }
-.circle {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    z-index: -1;
-    transform: translateY(-50%);
-    vertical-align: middle;
-}
+
 .about-content {
     h2 {
         font: {
@@ -3750,11 +3743,11 @@ CTA CSS
             weight: 700;
         }
         line-height: 1.4;
-        color: $white-color;
+        color: #aecdcf;
         margin-bottom: 0;
     }
     p {
-        color: $white-color;
+        color: #aecdcf;
         font-size: 16px;
         margin: 20px 0 35px;
     }
