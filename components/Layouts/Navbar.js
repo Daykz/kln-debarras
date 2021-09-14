@@ -122,16 +122,6 @@ class Navbar extends Component {
                                         Commentaires
                                     </AnchorLink>
                                 </li>
-                                <li className="nav-item">
-                                    <AnchorLink 
-                                        onClick={this.toggleNavbar} 
-                                        offset={() => -10} 
-                                        className="nav-link" 
-                                        href="#contact"
-                                    >
-                                        Contact
-                                    </AnchorLink>
-                                </li>
                             </ul>
                         </div>
                     </div>
