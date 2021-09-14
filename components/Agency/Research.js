@@ -3,9 +3,10 @@ import React, { Component } from 'react';
 class Research extends Component {
     render() {
         return (
+        <div class="teste">      
             <section className="ux-research-process ptb-100">
                 <div className="container">
-                    <div className="row align-items-center">
+                <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="research-process-image">
                                 <img src='/images/bourbier.jpg' alt="image" />
@@ -39,13 +40,14 @@ class Research extends Component {
 
                                 <div className="single-process">
                                     <h3>Devis</h3>
-                                    <p>Avant d'intervenir pour votre débarras, nous réalisons un <strong>devis gratuit et sans engagement*</strong>. Celui ci sera établi en fonction du volume à déblayer en mètre cube et des valeurs récupérables</p>
+                                    <p class="sauteca">Avant d'intervenir pour votre débarras, nous réalisons un <strong>devis gratuit et sans engagement*</strong>. Celui ci sera établi en fonction du volume à déblayer en mètre cube et des valeurs récupérables</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            </div>
         );
     }
 }

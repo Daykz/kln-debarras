@@ -34,7 +34,9 @@ class FeaturedCars extends Component {
     }
     render() {
         return (
+            <div class="sauteca">
             <section className="featured-cars ptb-100 bg-f5fbff">
+                        <div class="teste2">
                 <div className="container">
                     <div className="car-subscription-section-title">
                         <span>Portfolio</span>
@@ -114,7 +116,9 @@ class FeaturedCars extends Component {
                         </OwlCarousel> : ''}
                     </div>
                 </div>
+                </div>
             </section>
+            </div>
         );
     }
 }

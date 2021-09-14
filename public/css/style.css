@@ -64,6 +64,15 @@ body {
   }
 
 
+.okok3{
+  padding-bottom: 50px;
+}
+
+.okok2{
+
+  padding-top: 50px;
+
+}
 
 a {
   display: inline-block;
@@ -114,9 +123,25 @@ img {
   background-color: #aecdcf;
 }
 
-.ptb-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+
+.sauteca{
+  padding-bottom: 50px;
+}
+
+.teste{
+  background-color:#9cb8ba;
+  padding-top: 50px;
+}
+
+.teste2{
+  background-color: #8ca5a7;
+  padding-bottom: 50px;
+  
+}
+
+.teste3{
+  background-color: #7e9496;
+  padding-top: 50px;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -159,8 +184,9 @@ p:last-child {
 }
 
 .btn-primary {
-  color: #ffffff;
+  color:#fff;
   background-color: #aecdcf;
+  font-weight: bold;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.active {
