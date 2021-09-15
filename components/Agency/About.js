@@ -53,7 +53,7 @@ class About extends Component {
                                                     <img src='images/cardboard.png' alt="images" width="25px" height="25px"/>
                                                 </div>
 
-                                                <h3 className="okok">débarras</h3>
+                                                <h3 className="okok">Débarras</h3>
                                             </div>
 
                                             <p className="okok3">Toujours à l'heure, nous arriverons pour vider et trier les emcombrants : tout ce qui doit être jeter sera emmené en déchéterie, ce qui est encore utilisable sera soit vendu soit donner a des associations.</p>

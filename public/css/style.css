@@ -45,7 +45,7 @@ body {
 }
 
 .queseeso{
-  font-size: 77%;
+  font-size: 14px;
 }
 
   .logo-title {
@@ -57,7 +57,7 @@ body {
 
 
   .logo-sticky {
-    color: black;
+    color: #8f5128;
     text-shadow: 0px 4px 4px rgba(202, 194, 194, 0.25);
     font-family: Rochester;
     font-size: 38px;
@@ -131,6 +131,7 @@ img {
 .teste{
   background-color:#9cb8ba;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .teste2{
@@ -150,7 +151,7 @@ img {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+  color: #8f5128;
   margin-bottom: 15px;
 }
 
@@ -420,7 +421,7 @@ p:last-child {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  max-width: 520px;
+  max-width: 700px;
   font-size: 30px;
   font-weight: 700;
 }
@@ -576,7 +577,7 @@ Navbar CSS
 }
 
 .navbar-style-one.navbar.is-sticky > span {
-  color: black;
+  color: #8f5128;
 }
 
 .navbar-style-one.navbar.is-sticky {
@@ -601,8 +602,8 @@ Navbar CSS
 .navbar-style-one.navbar-light .navbar-nav .nav-item .nav-link {
   padding: 0 7px;
   position: relative;
-  text-transform: lowercase;
-  color: #aecdcf;
+  text-transform: uppercase;
+  color: #fff;
   z-index: 1;
   font-size: 15px;
   font-weight: 600;
@@ -694,7 +695,7 @@ Navbar CSS
 }
 
 .navbar-style-one.navbar-light.is-sticky .navbar-nav .nav-item .nav-link {
-  color: #000000;
+  color: #8f5128;
 }
 
 .navbar-style-one.navbar-light.is-sticky .navbar-nav .nav-item.active .nav-link::before {
@@ -1101,7 +1102,7 @@ Main Banner CSS
 
 .main-banner-content .btn-box .btn-primary:hover, .main-banner-content .btn-box .btn-primary:focus, .main-banner-content .btn-box .btn-primary.active {
   background-color: #ffffff;
-  color: #000000;
+  color: #8f5128;
   -webkit-box-shadow: unset;
           box-shadow: unset;
 }
@@ -1972,6 +1973,7 @@ About CSS
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 15px;
+  color: #565554;
 }
 
 .about-content p {
@@ -3297,6 +3299,7 @@ UX Research Process CSS
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 15px;
+  color: #565554;
 }
 
 .research-process-content p {
@@ -3306,7 +3309,7 @@ UX Research Process CSS
 .research-process-content .single-process {
   position: relative;
   margin-top: 25px;
-  padding-left: 38px;
+  /* padding-left: 38px; */
   padding-top: 5px;
 }
 
