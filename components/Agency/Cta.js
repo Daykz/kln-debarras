@@ -28,7 +28,7 @@ class Cta extends Component {
                                     <div className="single-cta-box">
                                     <img src='/images/emmaus.png' alt="image" height="80px" width="80px" />
                                         <h3>Emmaus</h3>
-                                        <p class="damnson">Fidèle à la volonté de l'abbé Pierre, Emmaüs est devenu à la fois une fabrique d'innovations sociales et de solidarités pour aider des publics en situation de grande précarité, et un front engagé et militant en faveur d'une société plus humaine et plus juste.</p>
+                                        <p className="damnson">Fidèle à la volonté de l'abbé Pierre, Emmaüs est devenu à la fois une fabrique d'innovations sociales et de solidarités pour aider des publics en situation de grande précarité, et un front engagé et militant en faveur d'une société plus humaine et plus juste.</p>
                                     </div>
                                 </div>
 

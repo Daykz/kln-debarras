@@ -37,7 +37,7 @@ class Testimonials extends Component {
     render() {
         return (
             <section id="testimonials" className="feedback-area ptb-100">
-                <div class="teste3">
+                <div className="teste3">
                 <div className="container">
                     <div className="section-title">
                         <h2>Le retour de nos clients</h2>

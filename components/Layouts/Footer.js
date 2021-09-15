@@ -4,6 +4,7 @@ import Link from 'next/link';
 class Footer extends Component {
     render() {
         return (
+            <div className="lafin">
             <footer className="footer-area bg-fffcf4">
                 <div className="container">
                     <div className="row">
@@ -35,12 +36,11 @@ class Footer extends Component {
 
                         <div className="col-lg-2 col-sm-6">
                             <div className="single-footer-widget pl-3">
-                                <h3>Lien rapide</h3>
         
                                 <ul className="list">
                                     <li>
                                         <Link href="#">
-                                            <a>Home</a>
+                                            <a className="lafinx">Home</a>
                                         </Link>
                                     </li>
                                     <li>
@@ -73,19 +73,14 @@ class Footer extends Component {
                 <div className="copyright-area">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-7 col-md-7">
-                                <p><i className="far fa-copyright"></i> 2021 KLN-Debarras. Tout droit réservé.</p>
-                            </div>
+
 
                             
                         </div>
                     </div>
                 </div>
-
-                <div className="map2">
-                    <img src='/images/map2.png' alt="map" />
-                </div>
             </footer>
+            </div>
         );
     }
 }

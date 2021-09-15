@@ -124,8 +124,8 @@ img {
 }
 
 
-.sauteca{
-  padding-bottom: 50px;
+.lafin{
+  height: 25px;
 }
 
 .teste{
@@ -139,9 +139,14 @@ img {
   
 }
 
+.lafinx{
+  padding-top: 25px;
+}
+
 .teste3{
   background-color: #7e9496;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -176,8 +181,8 @@ p:last-child {
 .btn {
   font-weight: 500;
   border: none;
-  padding: 14px 34px;
-  font-size: 15px;
+  padding: 20px 40px;
+  font-size: 20px;
   border-radius: 60px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -6594,7 +6599,6 @@ Footer CSS
 =================================================*/
 .footer-area {
   position: relative;
-  padding-top: 100px;
   z-index: 1;
   background-color: #fffcf4;
 }
@@ -6702,10 +6706,7 @@ Footer CSS
 }
 
 .copyright-area {
-  margin-top: 80px;
   border-top: 1px solid #f5f3ec;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .copyright-area p a {

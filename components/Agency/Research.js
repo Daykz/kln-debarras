@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Research extends Component {
     render() {
         return (
-        <div class="teste">      
+        <div className="teste">      
             <section className="ux-research-process ptb-100">
                 <div className="container">
                 <div className="row align-items-center">
@@ -40,7 +40,7 @@ class Research extends Component {
 
                                 <div className="single-process">
                                     <h3>Devis</h3>
-                                    <p class="sauteca">Avant d'intervenir pour votre débarras, nous réalisons un <strong>devis gratuit et sans engagement*</strong>. Celui ci sera établi en fonction du volume à déblayer en mètre cube et des valeurs récupérables</p>
+                                    <p className="sauteca">Avant d'intervenir pour votre débarras, nous réalisons un <strong>devis gratuit et sans engagement*</strong>. Celui ci sera établi en fonction du volume à déblayer en mètre cube et des valeurs récupérables</p>
                                 </div>
                             </div>
                         </div>
