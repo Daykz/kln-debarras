@@ -39,7 +39,7 @@ class FeaturedCars extends Component {
                         <div class="teste2">
                 <div className="container">
                     <div className="car-subscription-section-title">
-                        <span>Portfolio</span>
+                        {/* <span>Portfolio</span> */}
                         <h2>Un petit exemple de nos travaux passés</h2>
                     </div>
 

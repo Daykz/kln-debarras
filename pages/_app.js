@@ -22,6 +22,12 @@ export default class MyApp extends App {
             <>
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                    
+                    <title>KLN Débarras</title>
+                    <meta
+                    name="description"
+                    content="KLN débarras est un service professionel specialisé dans le débarassage. Que ce soit pour un vide-maison ou simplement votre grenier, votre appartement en plein centre ville ou votre villa, nous sommes la pour faire de cette corvé un mauvais souvenir."
+                    />
                 </Head>
 
                 <Preloader>

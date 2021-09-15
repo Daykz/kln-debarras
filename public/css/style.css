@@ -36,7 +36,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 @font-face {
@@ -45,7 +45,7 @@ body {
 }
 
 .queseeso{
-  font-size: 14px;
+  font-size: 15px;
 }
 
   .logo-title {
@@ -404,7 +404,8 @@ p:last-child {
 /* car-subscription-section-title */
 .car-subscription-section-title {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  padding-top: 40px;
 }
 
 .car-subscription-section-title span {
@@ -3188,7 +3189,7 @@ Featured Cars CSS
   position: absolute;
   right: 15px;
   top: 0;
-  margin-top: -100px;
+  margin-top: -70px;
 }
 
 .featured-cars-slides.owl-theme .owl-nav [class*=owl-] {
