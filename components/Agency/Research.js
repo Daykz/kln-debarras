@@ -20,27 +20,27 @@ class Research extends Component {
 
                                 <div className="single-process">
                                     <h3>Localisation ?</h3>
-                                    <p>Vous pouvez nous retrouver dans toute la <b>région Centre</b>; dans <strong>l'Indre et loire</strong> (37, Tours, Saint Cyr, Amboise...), <strong>l'Indre</strong> (36, Chateauroux, Issoudin...), <strong>Loir-et-Cher</strong> (41, Blois, Romorantin...), <strong>Loiret</strong> (45, Orléans, Gien...), <strong>Eure</strong> (18, Bourge, Vierzon...), <strong>l'Allier</strong> (03, Montlucon, Vichy...)</p>
+                                    <p>Notre zone d'activité s'étend dans toute la <b>région Centre</b>, <b>Indre 36</b> (Châteauroux, Issoudun, La Chatre...), <b>Loir et Cher 41</b> (Saint Aignan, Montrichard, Blois, Romorantin...), <b>Loiret 45</b> (Orléans, Olivet, Giens...), <b>Cher 18</b> (Bourges, Vierzon, Saint-Montrond...), <b>Indre et Loire 37</b> (Tours, Amboise, Saint-Cyr...), et également dans <b>l'Allier 03</b> (Montluçon, Vichy...). </p>
                                 </div>
                                 <div className="single-process">
-                                    <h3>Y a t il une limite a ce que vous pouvez débarasser ?</h3>
-                                    <p>Que ce soit de vieux meubles ou un tas de débris, plusieurs piles de cartons vides ou de l'electroménager, un simple grenier ou un immense chateau, que ce soit en terme d'objets récupérables/emcombrants ou en terme de surface nous nous <b>occupons de tout.</b></p>
-                                </div>
-
-                                <div className="single-process">
-                                    <h3>Que faites vous des emcombrants ensuite ?</h3>
-
-                                    <p>Ce qui n'est plus en êtat de fonctionner est <b>trié et envoyé à la déchetterie</b>, si c'est un produit très précis nous pouvons également l'emmener dans une société spécialisé. Ce qui peut resservir est <b>revendu</b> lorsque c'est possible, sinon <b>donné à un organisme social</b> ou à des entreprises solidaires du type Emmaus. </p>
+                                    <h3>Y'a t'il une limite à ce que vous pouvez débarrasser ?</h3>
+                                    <p>Que ce soit de vieux meubles, un tas de débris, de la ferraille, de l'électroménager, un simple grenier ou un immense château. Que ce soit en termes d'objets récupérables/ encombrants ou en termes de surface <b>nous nous occupons de tout</b>. Sauf matériaux de construction (amiantes).</p>
                                 </div>
 
                                 <div className="single-process">
-                                    <h3>Sous quel délai intervenez vous ?</h3>
-                                    <p><b>C'est vous qui décidez !</b> Nous vous demandons quand même de nous prévenir <b>au moins 24 heures en avance</b> pour des raisons evidentes de planning. Si jamais c'est une <b>urgence</b> devant être fait dans la journéee, nous ferons tout de même <b>le maximum pour y répondre.</b></p>
+                                    <h3>Que faites-vous des encombrants ensuite ? </h3>
+
+                                    <p>Ce qui n'est plus en état de fonctionner est <b>trié et envoyé à la déchetterie</b>. Ce qui peut resservir est revendu lorsque c'est possible sinon <b>donné à un organisme social</b> ou à des <b>entreprises solidaires du type Emmaüs</b>.</p>
                                 </div>
 
                                 <div className="single-process">
-                                    <h3>Devis</h3>
-                                    <p className="sauteca">Avant d'intervenir pour votre débarras, nous réalisons un <strong>devis gratuit et sans engagement*</strong>. Celui ci sera établi en fonction du volume à déblayer en mètre cube et des valeurs récupérables</p>
+                                    <h3>Sous quel délai intervenez-vous ?</h3>
+                                    <p>C'est vous qui décidez ! Nous vous demandons quand même de nous prévenir au moins 24 heures en avance pour des raisons évidentes de planning. Si jamais c'est une urgence devant être faite dans la journée, nous ferons tout de même <b>le maximum</b> pour y répondre.</p>
+                                </div>
+
+                                <div className="single-process">
+                                    <h3>Logistique</h3>
+                                    <p className="sauteca">Disposant d'une flotte de <b>3 camions</b>, le débarras sera effectué par une <b>équipe de professionnels respectant l'environnement de votre habitation</b> et à l'aide de notre <b>matériel adapté</b>. </p>
                                 </div>
                             </div>
                         </div>

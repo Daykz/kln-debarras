@@ -62,7 +62,7 @@ class Navbar extends Component {
             <>
                 <nav id="navbar" className="navbar navbar-expand-lg navbar-style-one navbar-light bg-light">
                     <div className="container">
-                            <span id='logo-navbar' className='logo-title'>KLN Debarras</span>
+                            <span id='logo-navbar' className='logo-title'>K.L.N Débarras</span>
                     {/* <Link href="/">
                             <a className="navbar-brand">
                             </a>

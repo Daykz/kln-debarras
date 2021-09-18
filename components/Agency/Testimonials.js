@@ -41,7 +41,7 @@ class Testimonials extends Component {
                 <div className="container">
                     <div className="section-title">
                         <h2>Le retour de nos clients</h2>
-                        <p>Autant vous le demander directement ! Voici un petit echantillon de ce que vous avez pensez de nous !</p>
+                        <p>Autant vous le demander directement ! Voici un petit échantillon de ce que vous avez pensé de nous !</p>
                     </div>
 
                     <div className="row">

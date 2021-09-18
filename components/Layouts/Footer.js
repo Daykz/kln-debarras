@@ -13,7 +13,6 @@ class Footer extends Component {
 
         
                                 <ul className="contact-info">
-                                    <li>Une adresse que je n'ai pas encore</li>
                                     <li>
                                         <Link href="tel:0769773262">
                                             <a>07 69 77 32 62</a>
