@@ -103,9 +103,7 @@ class Footer extends Component {
                         
                         <div className="col-lg-2 col-sm-6">
                                 <div className="lazone"><span id='logo-navbar' className='logo-title logo-sticky'>K.L.N Débarras</span>
-                                         <p className="lazone1">
-                                             kln-débarras.fr | 2020-2021 | Reproduction totale ou partielle strictement interdite sur tout support sans autorisation préalable.
-                                        </p>
+                                      
                                     </div> 
                         
                         </div>
@@ -119,7 +117,9 @@ class Footer extends Component {
                 <div className="copyright-area">
                     <div className="container">
                         <div className="row align-items-center">
-                            
+                        <p className="lazone1">
+                                             kln-débarras.fr | 2020-2021 | Reproduction totale ou partielle strictement interdite sur tout support sans autorisation préalable.
+                                        </p>
                         </div>
                     </div>
                 </div>

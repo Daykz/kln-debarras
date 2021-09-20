@@ -6646,6 +6646,10 @@ Footer CSS
           transform: translateY(-50%);
 }
 
+.single-footer {
+  margin-bottom: 100px;
+}
+
 .single-footer-widget .logo {
   margin-bottom: 15px;
 }
@@ -6655,7 +6659,7 @@ Footer CSS
 }
 
 .single-footer-widget .contact-info {
-  padding-left: 25px;
+  padding-left: 0;
   margin: 35px 0 0;
   list-style-type: none;
 }
@@ -6712,14 +6716,14 @@ Footer CSS
 
 
 .lazone{
-  min-width: 470px;
-  width: 470px;
-    bottom: 19px;
-    position: absolute;
+  top: 20px;
+  position: absolute;
 }
 
 .lazone1{
   font-size: 14px;
+  width: 75%;
+  margin: 0 auto;
 }
 
 
