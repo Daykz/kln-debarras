@@ -13,6 +13,7 @@ class Footer extends Component {
 
         
                                 <ul className="contact-info">
+                                    <h3>Information</h3>
                                     <li>
                                         <Link href="tel:0769773262">
                                             <a>07 69 77 32 62</a>
@@ -24,18 +25,21 @@ class Footer extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>kln-debarras.fr</a>
+                                        <Link href="kln-debarras.vercel.app">
+                                            <a>kln-debarras.vercel.app</a>
                                         </Link>
                                     </li>
                                     <li>0000000</li>
+                                        <Link href="société.com">
+                                            <li>Société.com</li>
+                                        </Link>
                                 </ul>
                             </div>
                         </div>
-
+                        
                         <div className="col-lg-2 col-sm-6">
                             <div className="single-footer-widget pl-3">
-        
+                                <h3 className="svplaissezmoi">Lien Rapide</h3>
                                 <ul className="list">
                                     <li>
                                         <Link href="#">
@@ -65,6 +69,51 @@ class Footer extends Component {
                                 </ul>
                             </div>
                         </div>
+
+                        <div className="col-lg-2 col-sm-6">
+                            <div className="single-footer-widget pl-3">
+                                <h3 className="svplaissezmoi">Disponibilité</h3>
+                                <ul className="list">
+                                    <li>
+                                        
+                                            <a className="lafinx">Allier 03</a>
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                            <a>Eure 18</a>
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                            <a>Indre 36</a>
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                            <a>Indre et Loire 37</a>
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                            <a>Loir et Cher 41</a>
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                            <a>Loiret 45</a>
+                                        
+                                    </li>
+                                    <div className="lazone"><span id='logo-navbar' className='logo-title'>K.L.N Débarras</span>
+                            <p className="lazone1">
+                                kln-débarras.fr | 2020-2021 | Reproduction totale ou partielle strictement interdite sur tout support sans autorisation préalable.
+                                </p>
+                                </div> 
+                                </ul>
+                                </div>
+                        </div>
+                        
+
                         
                     </div>
                 </div>
@@ -72,8 +121,6 @@ class Footer extends Component {
                 <div className="copyright-area">
                     <div className="container">
                         <div className="row align-items-center">
-
-
                             
                         </div>
                     </div>

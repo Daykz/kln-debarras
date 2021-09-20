@@ -19,6 +19,10 @@ class Research extends Component {
                                 <p>Petit florilège des questions que l'on nous pose habituellement !</p>
 
                                 <div className="single-process">
+                                    <h3>Combien ca coûte ?</h3>
+                                    <p>Ca varie selon votre choix, il y a trois types de débarras possibles : <br/>-<strong>Le débarras indemnisé</strong> : les valeurs récupérables sont plus importantes que le cout du service de débarras<br/>-<strong>Le débarras gratuit</strong> : les valeurs récupérables couvrent le cout du service de débarras<br/>-<strong>Le débarras facturé</strong> : Le cout du service de débarras est plus important que les valeurs récupérables</p>
+                                </div>
+                                <div className="single-process">
                                     <h3>Localisation ?</h3>
                                     <p>Notre zone d'activité s'étend dans toute la <b>région Centre</b>, <b>Indre 36</b> (Châteauroux, Issoudun, La Chatre...), <b>Loir et Cher 41</b> (Saint Aignan, Montrichard, Blois, Romorantin...), <b>Loiret 45</b> (Orléans, Olivet, Giens...), <b>Cher 18</b> (Bourges, Vierzon, Saint-Montrond...), <b>Indre et Loire 37</b> (Tours, Amboise, Saint-Cyr...), et également dans <b>l'Allier 03</b> (Montluçon, Vichy...). </p>
                                 </div>
