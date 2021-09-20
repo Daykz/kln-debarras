@@ -54,6 +54,7 @@ body {
   font-size: 15px;
 }
 
+
   .logo-title {
     color: white;
     text-shadow: 0px 4px 4px rgba(202, 194, 194, 0.25);
@@ -81,10 +82,20 @@ body {
 }
 
 
+@media (max-width: 992px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
 @media (min-width: 992px) {
 
   .about-image-details {
     padding-top: 125px;
+  }
+
+  .display-mobile {
+    display: initial;
   }
 }
 
@@ -6650,13 +6661,13 @@ Footer CSS
 }
 
 .single-footer-widget .contact-info li {
-  color: #646464;
+  color: black;
   margin-bottom: 10px;
   font-weight: 500;
 }
 
 .single-footer-widget .contact-info li a {
-  color: #646464;
+  color: black;
 }
 
 
@@ -6687,28 +6698,30 @@ Footer CSS
 }
 
 .single-footer-widget ul.list li {
-  color: #646464;
+  color: black;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 14px;
 }
 
 .single-footer-widget ul.list li a {
-  color: #646464;
+  color: black;
   font-size: 14px;
   position: relative;
 }
 
 
 .lazone{
-  margin-left: 100%;
-  width: 500px;
+  min-width: 470px;
+  width: 470px;
+    bottom: 19px;
+    position: absolute;
 }
 
-.lazone{
-
-
+.lazone1{
+  font-size: 14px;
 }
+
 
 .single-footer-widget ul.list li a:hover::before, .single-footer-widget ul.list li a:focus::before {
   opacity: 1;
@@ -7065,7 +7078,7 @@ Go Top CSS
 
 .back-to-top .top:hover {
   color: #ffffff;
-  background: #ff3366;
+  background: #8f5128;
 }
 
 .react-sweet-progress-symbol {

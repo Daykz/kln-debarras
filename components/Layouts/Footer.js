@@ -20,19 +20,12 @@ class Footer extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="mailto:klm.debarras@gmail.com">
-                                            <a>klm.debarras@gmail.com</a>
-                                        </Link>
+                                        <a href="mailto:klm.debarras@gmail.com"target='_blank' >klm.debarras@gmail.com</a>
                                     </li>
                                     <li>
-                                        <Link href="kln-debarras.vercel.app">
-                                            <a>kln-debarras.vercel.app</a>
-                                        </Link>
+                                        <a href="kln-debarras.vercel.app" target='_blank' >kln-debarras.vercel.app</a>
                                     </li>
-                                    <li>0000000</li>
-                                        <Link href="société.com">
-                                            <li>Société.com</li>
-                                        </Link>
+                                    <li>78995213200031</li>
                                 </ul>
                             </div>
                         </div>
@@ -62,7 +55,7 @@ class Footer extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#contact">
+                                        <Link href="#">
                                             <a>Nous contactez</a>
                                         </Link>
                                     </li>
@@ -104,15 +97,20 @@ class Footer extends Component {
                                             <a>Loiret 45</a>
                                         
                                     </li>
-                                    <div className="lazone"><span id='logo-navbar' className='logo-title'>K.L.N Débarras</span>
-                            <p className="lazone1">
-                                kln-débarras.fr | 2020-2021 | Reproduction totale ou partielle strictement interdite sur tout support sans autorisation préalable.
-                                </p>
-                                </div> 
                                 </ul>
                                 </div>
                         </div>
                         
+                        <div className="col-lg-2 col-sm-6">
+                                <div className="lazone"><span id='logo-navbar' className='logo-title logo-sticky'>K.L.N Débarras</span>
+                                         <p className="lazone1">
+                                             kln-débarras.fr | 2020-2021 | Reproduction totale ou partielle strictement interdite sur tout support sans autorisation préalable.
+                                        </p>
+                                    </div> 
+                        
+                        </div>
+                        
+                                
 
                         
                     </div>

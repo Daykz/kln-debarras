@@ -7,9 +7,21 @@ class Research extends Component {
             <section className="ux-research-process ptb-100">
                 <div className="container">
                 <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-12">
+                        <div className="col-lg-6 col-md-12 research-process-content pl-15">
                             <div className="research-process-image">
                                 <img src='/images/bourbier.jpg' alt="image" />
+                            </div>
+
+                            <div className="hide-mobile">
+                                <div className="single-process">
+                                    <h3>Sous quel délai intervenez-vous ?</h3>
+                                    <p>C'est vous qui décidez ! Nous vous demandons quand même de nous prévenir au moins 24 heures en avance pour des raisons évidentes de planning. Si jamais c'est une urgence devant être faite dans la journée, nous ferons tout de même <b>le maximum</b> pour y répondre.</p>
+                                </div>
+
+                                <div className="single-process">
+                                    <h3>Logistique</h3>
+                                    <p className="sauteca">Disposant d'une flotte de <b>3 camions</b>, le débarras sera effectué par une <b>équipe de professionnels respectant l'environnement de votre habitation</b> et à l'aide de notre <b>matériel adapté</b>. </p>
+                                </div>
                             </div>
                         </div>
 
@@ -37,6 +49,7 @@ class Research extends Component {
                                     <p>Ce qui n'est plus en état de fonctionner est <b>trié et envoyé à la déchetterie</b>. Ce qui peut resservir est revendu lorsque c'est possible sinon <b>donné à un organisme social</b> ou à des <b>entreprises solidaires du type Emmaüs</b>.</p>
                                 </div>
 
+                                <div className="display-mobile">
                                 <div className="single-process">
                                     <h3>Sous quel délai intervenez-vous ?</h3>
                                     <p>C'est vous qui décidez ! Nous vous demandons quand même de nous prévenir au moins 24 heures en avance pour des raisons évidentes de planning. Si jamais c'est une urgence devant être faite dans la journée, nous ferons tout de même <b>le maximum</b> pour y répondre.</p>
@@ -46,6 +59,8 @@ class Research extends Component {
                                     <h3>Logistique</h3>
                                     <p className="sauteca">Disposant d'une flotte de <b>3 camions</b>, le débarras sera effectué par une <b>équipe de professionnels respectant l'environnement de votre habitation</b> et à l'aide de notre <b>matériel adapté</b>. </p>
                                 </div>
+                            </div>
+
                             </div>
                         </div>
                     </div>

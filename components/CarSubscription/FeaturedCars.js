@@ -53,7 +53,6 @@ class FeaturedCars extends Component {
                                     <img src="/images/cata1.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
-                                        <h3><a href="#">Soissons 2021</a></h3>
                                         <span>Avant</span>
                                     </div>
                                 </div>
@@ -64,7 +63,6 @@ class FeaturedCars extends Component {
                                     <img src="/images/cata2.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
-                                        <h3><a href="#">Soissons 2021</a></h3>
                                         <span>Avant</span>
                                     </div>
                                 </div>
@@ -75,7 +73,6 @@ class FeaturedCars extends Component {
                                     <img src="/images/cata3.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
-                                        <h3><a href="#">Soissons 2021</a></h3>
                                         <span>Après</span>
                                     </div>
                                 </div>
@@ -86,7 +83,6 @@ class FeaturedCars extends Component {
                                     <img src="/images/cata4.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
-                                        <h3><a href="#">Soissons 2021</a></h3>
                                         <span>Après</span>
                                     </div>
                                 </div>
@@ -97,7 +93,6 @@ class FeaturedCars extends Component {
                                     <img src="/images/cata5.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
-                                        <h3><a href="#">Soissons 2021</a></h3>
                                         <span>Après</span>
                                     </div>
                                 </div>
@@ -108,7 +103,6 @@ class FeaturedCars extends Component {
                                     <img src="/images/cata6.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
-                                        <h3><a href="#">Soissons 2021</a></h3>
                                         <span>Après</span>
                                     </div>
                                 </div>
