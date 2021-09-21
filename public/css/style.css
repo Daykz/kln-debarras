@@ -54,6 +54,13 @@ body {
   font-size: 15px;
 }
 
+.oklink {
+  cursor: pointer;
+}
+
+.oklink:hover {
+  text-decoration: underline;
+}
 
   .logo-title {
     color: white;

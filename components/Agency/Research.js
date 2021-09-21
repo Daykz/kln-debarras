@@ -32,7 +32,7 @@ class Research extends Component {
 
                                 <div className="single-process">
                                     <h3>Combien ca coûte ?</h3>
-                                    <p>Ca varie selon votre choix, il y a trois types de débarras possibles : <br/>-<strong>Le débarras indemnisé</strong> : les valeurs récupérables sont plus importantes que le cout du service de débarras<br/>-<strong>Le débarras gratuit</strong> : les valeurs récupérables couvrent le cout du service de débarras<br/>-<strong>Le débarras facturé</strong> : Le cout du service de débarras est plus important que les valeurs récupérables</p>
+                                    <p>Ca varie selon votre choix, il y a trois types de débarras possibles : <br/>-<strong>Le débarras indemnisé</strong> : les valeurs récupérables sont plus importantes que le coût du service de débarras<br/>-<strong>Le débarras gratuit</strong> : les valeurs récupérables couvrent le coût du service de débarras<br/>-<strong>Le débarras facturé</strong> : Le coût du service de débarras est plus important que les valeurs récupérables</p>
                                 </div>
                                 <div className="single-process">
                                     <h3>Localisation ?</h3>
