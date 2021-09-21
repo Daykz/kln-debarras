@@ -117,9 +117,9 @@ class Navbar extends Component {
                                         onClick={this.toggleNavbar} 
                                         offset={() => -10} 
                                         className="nav-link" 
-                                        href="#testimonials"
+                                        href="#contact"
                                     >
-                                        Commentaires
+                                        Contact
                                     </AnchorLink>
                                 </li>
                             </ul>

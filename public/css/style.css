@@ -82,13 +82,13 @@ body {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
   .hide-mobile {
     display: none;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 767px) {
 
   .about-image-details {
     padding-top: 125px;
@@ -6716,7 +6716,6 @@ Footer CSS
 
 
 .lazone{
-  top: 20px;
   position: absolute;
 }
 

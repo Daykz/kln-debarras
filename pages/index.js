@@ -5,7 +5,7 @@ import Banner from '../components/Agency/Banner';
 import About from '../components/Agency/About';
 import FeaturedCars from '../components/CarSubscription/FeaturedCars';
 import Research from '../components/Agency/Research';
-import Testimonials from '../components/Agency/Testimonials';
+// import Testimonials from '../components/Agency/Testimonials';
 
 class Index extends Component {
     render() {
@@ -16,7 +16,7 @@ class Index extends Component {
                 <About />
                 <Research />
                 <FeaturedCars />
-                <Testimonials />
+                {/* <Testimonials /> */}
                 <Footer />
             </>
         );

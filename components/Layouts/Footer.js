@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="lafin">
-            <footer className="footer-area bg-fffcf4">
+            <footer id='contact' className="footer-area bg-fffcf4">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-sm-6">
@@ -20,7 +20,7 @@ class Footer extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <a href="mailto:klm.debarras@gmail.com"target='_blank' >klm.debarras@gmail.com</a>
+                                        <a href="mailto:kln.debarras@gmail.com"target='_blank' >kln.debarras@gmail.com</a>
                                     </li>
                                     <li>
                                         <a href="kln-debarras.vercel.app" target='_blank' >kln-debarras.vercel.app</a>
@@ -74,7 +74,7 @@ class Footer extends Component {
                                     </li>
                                     <li>
                                         
-                                            <a>Eure 18</a>
+                                            <a>Cher 18</a>
                                         
                                     </li>
                                     <li>
@@ -118,7 +118,7 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row align-items-center">
                         <p className="lazone1">
-                                             kln-débarras.fr | 2020-2021 | Reproduction totale ou partielle strictement interdite sur tout support sans autorisation préalable.
+                                             kln-debarras.fr | 2020-2021 | Reproduction totale ou partielle strictement interdite sur tout support sans autorisation préalable.
                                         </p>
                         </div>
                     </div>
