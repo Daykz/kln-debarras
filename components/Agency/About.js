@@ -33,7 +33,7 @@ class About extends Component {
                                                 </div>
                                                     <Link href="tel:0769773262">
 
-                                                <h3 className="okok oklink">Appelez-nous !</h3>
+                                                <h4 className="okok oklink">Appelez-nous !</h4>
                                                     </Link>
                                             </div>
 
@@ -76,7 +76,7 @@ class About extends Component {
                                                     <img src="images/smiley.png" alt="images" width="25px" height="25px" />
                                                 </div>
 
-                                                <h3 className="okok">Satisfaction Client</h3>
+                                                <h4 className="okok">Satisfaction Client</h4>
                                             </div>
 
                                             <p className="okok3">Car pour nous <b>votre satisfaction</b> est primordiale nous nous engageons à effectuer un travail correspondant à vos attentes dans les <b>meilleurs délais</b>.</p>

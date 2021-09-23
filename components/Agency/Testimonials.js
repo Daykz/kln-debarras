@@ -40,7 +40,7 @@ class Testimonials extends Component {
                 <div className="teste3">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Le retour de nos clients</h2>
+                        <h4>Le retour de nos clients</h4>
                         <p>Autant vous le demander directement ! Voici un petit échantillon de ce que vous avez pensé de nous !</p>
                     </div>
 
@@ -55,7 +55,7 @@ class Testimonials extends Component {
                                     <p>équipe très sympathique et efficace, ma nièce me les a conseillé et c'est bien la seule fois qu'elle a été de bon conseil lol</p>
 
                                     <div className="client-info">
-                                        <h3>Martine Daveu</h3>
+                                        <h4>Martine Daveu</h4>
                                         <span>Loir-et-Cher (41)</span>
                                     </div>
 
@@ -69,7 +69,7 @@ class Testimonials extends Component {
                                     <p>Un crew diablement efficace en plus d'être très drôle. C'est limite si j'ai passé un bon moment à vider la maison familial... Je recommande fortement !</p>
 
                                     <div className="client-info">
-                                        <h3>Thibault Garez</h3>
+                                        <h4>Thibault Garez</h4>
                                         <span>Indre et Loire (37)</span>
                                     </div>
 
@@ -83,7 +83,7 @@ class Testimonials extends Component {
                                     <p>equipe gentille . du bon travail de fait . mrci beaucoup .</p>
 
                                     <div className="client-info">
-                                        <h3>David W.</h3>
+                                        <h4>David W.</h4>
                                         <span>Eure (18)</span>
                                     </div>
 

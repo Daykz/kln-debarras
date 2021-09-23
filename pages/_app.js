@@ -17,16 +17,48 @@ import GoTop from '../components/Layouts/GoTop';
 export default class MyApp extends App {
     render () {
         const { Component, pageProps } = this.props
+const jsonLd =    {
+    "@context": "http://www.kln-debarras.fr",
+    "@type": "LocalBusiness",
+    "@name": "KLN Debarras",
+    "adress":{
+        "@type": "PostalAddress",
+        "streetAddress": "12 Rue de la Paix",
+        "addressLocality": "Issoudun",
+        "addressRegion": "Indre",
+        "postalCode": "36100",
+        "addressCountry": "FR"
+    },
 
+    "review":{
+        "@type": "review",
+        "reviewRating": {
+            "@type": "rating",
+            "ratingValue": "4",
+            "bestRating": "5"
+        }
+    },
+
+    "url": "http://kln-debarras.fr",
+    "telephone": "0769773262",
+
+
+}
         return (
             <>
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                    <meta name="keywords" content="Débarras, déménagement, encombrants" />
+                    <link rel="canonical" href="http://www.kln-debarras.fr" />
                     
-                    <title>K.L.N Débarras</title>
+                    <title>Débarras et déménagement dans votre région Centre</title>
                     <meta
                     name="description"
-                    content="KLN débarras est un service professionel specialisé dans le débarassage. Que ce soit pour un vide-maison ou simplement votre grenier, votre appartement en plein centre ville ou votre villa, nous sommes la pour faire de cette corvé un mauvais souvenir."
+                    content="KLN débarras s'occupe de vos débarras, du tri des encombrants, et de les déposer en centre de tri. Devis gratuit."
+                    />
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
                     />
                 </Head>
 
