@@ -10,10 +10,8 @@ cache:
 pages:
   script:
     - npm run build
-    - mv out/* site
-    - rm -rf out
   artifacts:
     paths:
-      - site
+      - out
   only:
     - main
