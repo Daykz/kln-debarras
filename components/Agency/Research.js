@@ -40,7 +40,7 @@ class Research extends Component {
                                 </div>
                                 <div className="single-process">
                                     <h3>Y'a t'il une limite à ce que vous pouvez débarrasser ?</h3>
-                                    <p>Que ce soit de vieux meubles, un tas de débris, de la ferraille, de l'électroménager, un simple grenier ou un immense château. Que ce soit en termes d'objets récupérables/ encombrants ou en termes de surface <b>nous nous occupons de tout</b>. Sauf matériaux de construction (amiantes).</p>
+                                    <p>Que ce soit de vieux meubles, un tas de débris, de la ferraille, de l'électroménager, un simple grenier ou un immense château. Que ce soit en termes d'objets récupérables/ encombrants ou en termes de surface <b>nous nous occupons de tout</b>. Sauf matériaux de construction et produits dangereux.</p>
                                 </div>
 
                                 <div className="single-process">

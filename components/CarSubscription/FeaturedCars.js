@@ -60,7 +60,37 @@ class FeaturedCars extends Component {
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-featured-cars">
+                                    <img src="/images/cata5.jpg" alt="cars" />
+
+                                    <div className="featured-cars-content">
+                                        <span>Après</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-12 col-md-12">
+                                <div className="single-featured-cars">
                                     <img src="/images/cata2.jpg" alt="cars" />
+
+                                    <div className="featured-cars-content">
+                                        <span>Avant</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-12 col-md-12">
+                                <div className="single-featured-cars">
+                                    <img src="/images/cata6.jpg" alt="cars" />
+
+                                    <div className="featured-cars-content">
+                                        <span>Après</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-12 col-md-12">
+                                <div className="single-featured-cars">
+                                    <img src="/images/cata8.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
                                         <span>Avant</span>
@@ -80,27 +110,17 @@ class FeaturedCars extends Component {
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-featured-cars">
+                                    <img src="/images/cata7.jpg" alt="cars" />
+
+                                    <div className="featured-cars-content">
+                                        <span>Avant</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-12 col-md-12">
+                                <div className="single-featured-cars">
                                     <img src="/images/cata4.jpg" alt="cars" />
-
-                                    <div className="featured-cars-content">
-                                        <span>Après</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-featured-cars">
-                                    <img src="/images/cata5.jpg" alt="cars" />
-
-                                    <div className="featured-cars-content">
-                                        <span>Après</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-featured-cars">
-                                    <img src="/images/cata6.jpg" alt="cars" />
 
                                     <div className="featured-cars-content">
                                         <span>Après</span>
