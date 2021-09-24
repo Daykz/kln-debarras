@@ -16,33 +16,6 @@ import Loader from '../components/Layouts/Loader';
 export default class MyApp extends App {
     render () {
         const { Component, pageProps } = this.props
-const jsonLd =    {
-    "@context": "https://kln-debarras.fr",
-    "@type": "LocalBusiness",
-    "@name": "KLN Debarras",
-    "adress":{
-        "@type": "PostalAddress",
-        "streetAddress": "12 Rue de la Paix",
-        "addressLocality": "Issoudun",
-        "addressRegion": "Indre",
-        "postalCode": "36100",
-        "addressCountry": "FR"
-    },
-
-    "review":{
-        "@type": "review",
-        "reviewRating": {
-            "@type": "rating",
-            "ratingValue": "4",
-            "bestRating": "5"
-        }
-    },
-
-    "url": "http://kln-debarras.fr",
-    "telephone": "0769773262",
-
-
-}
         return (
             <>
                 <Head>
@@ -55,10 +28,35 @@ const jsonLd =    {
                     name="description"
                     content="KLN débarras s'occupe de vos débarras, du tri des encombrants, et de les déposer en centre de tri. Devis gratuit."
                     />
-                    <script
-                        type="application/ld+json"
-                        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-                    />
+                    <script type="application/ld+json">
+                        {
+                            {
+                                "@context": "https://kln-debarras.fr",
+                                "@type": "LocalBusiness",
+                                "@name": "KLN Debarras",
+                                "adress":{
+                                    "@type": "PostalAddress",
+                                    "streetAddress": "12 Rue de la Paix",
+                                    "addressLocality": "Issoudun",
+                                    "addressRegion": "Indre",
+                                    "postalCode": "36100",
+                                    "addressCountry": "FR"
+                                },
+                            
+                                "review":{
+                                    "@type": "review",
+                                    "reviewRating": {
+                                        "@type": "rating",
+                                        "ratingValue": "4",
+                                        "bestRating": "5"
+                                    }
+                                },
+                            
+                                "url": "http://kln-debarras.fr",
+                                "telephone": "0769773262",
+                            }
+                        }    
+                    </script>
                 </Head>
 
                 <Preloader>
