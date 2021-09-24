@@ -17,7 +17,7 @@ export default class MyApp extends App {
     render () {
         const { Component, pageProps } = this.props
 const jsonLd =    {
-    "@context": "http://www.kln-debarras.fr",
+    "@context": "https://kln-debarras.fr",
     "@type": "LocalBusiness",
     "@name": "KLN Debarras",
     "adress":{
