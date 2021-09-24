@@ -9,7 +9,7 @@ class About extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="about-image-details">
-                                <img src='/kln-debarras/images/grenier.jpg' alt="image" />
+                                <img src='/images/grenier.jpg' alt="image" />
                             </div>
                         </div>
 
@@ -29,7 +29,7 @@ class About extends Component {
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <img src='/kln-debarras/images/phone-call.png' alt="image" height="25px" width="25px" />
+                                                    <img src='/images/phone-call.png' alt="image" height="25px" width="25px" />
                                                 </div>
                                                     <Link href="tel:0769773262">
 
@@ -45,7 +45,7 @@ class About extends Component {
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <img src='/kln-debarras/images/document.png' alt="image" height="25px" width="25px" />
+                                                    <img src='/images/document.png' alt="image" height="25px" width="25px" />
                                                 </div>
 
                                                 <h3 className="okok">Devis</h3>
