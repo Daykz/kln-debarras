@@ -30,31 +30,31 @@ export default class MyApp extends App {
                     />
                     <script type="application/ld+json">
                         {
-                            {
-                                "@context": "https://kln-debarras.fr",
-                                "@type": "LocalBusiness",
-                                "@name": "KLN Debarras",
-                                "adress":{
-                                    "@type": "PostalAddress",
-                                    "streetAddress": "12 Rue de la Paix",
-                                    "addressLocality": "Issoudun",
-                                    "addressRegion": "Indre",
-                                    "postalCode": "36100",
-                                    "addressCountry": "FR"
-                                },
-                            
-                                "review":{
-                                    "@type": "review",
-                                    "reviewRating": {
-                                        "@type": "rating",
-                                        "ratingValue": "4",
-                                        "bestRating": "5"
-                                    }
-                                },
-                            
-                                "url": "http://kln-debarras.fr",
-                                "telephone": "0769773262",
-                            }
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "KLN Débarras",
+    "image": [
+        "https://kln-debarras.fr/images/1x1/principal2_1x1.jpg",
+        "https://kln-debarras.fr/images/4x3/principal2_4x3.jpg",
+        "https://kln-debarras.fr/images/16x9/principal2_16x9.jpg"
+    ],
+    "adress":{
+        "@type": "PostalAddress",
+        "streetAddress": "Domaine Villetroche",
+        "addressLocality": "Paudy",
+        "addressRegion": "Centre-Val de Loire",
+        "postalCode": "36260",
+        "addressCountry": "FR"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.036408,
+        "longitude": 1.908068
+      },
+    "url": "https://kln-debarras.fr",
+    "telephone": "0769773262"
+}
                         }    
                     </script>
                 </Head>
