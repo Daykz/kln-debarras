@@ -14,14 +14,11 @@ module.exports = withPlugins([
         strip: true,
         verbose: true,
       },
-      imagesPublicPath: '/kln-debarras/_next/static/images/',
     }],
     {
         sassOptions: {
             includePaths: [path.join(__dirname, 'styles')],
         },
         trailingSlash: true,
-        basePath: '/kln-debarras',
-        assetPrefix: '/kln-debarras/',
     }
   ]);
