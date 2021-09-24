@@ -22,7 +22,7 @@ class About extends Component {
                                 <br/><br/>
                                 <b>Laissez moi vous expliquer:</b>
                                 <br />
-                                Vous et votre famille emménagez dans une nouvelle maison et vous ne savez pas quoi faire de vos <b>anciens mobiliers</b> ? Le grenier de la maison parentale n'a pas été touché depuis les années 80 et vous êtes bien décidé à le vider une bonne fois pour toute ! Tout cela a l'air bien ennuyant. Il faudrait louer un camion, contacter des amis ou de la famille pour un peu d'aide. C'est là que <b>notre logistique</b> et <b>notre savoir</b> faire interviennent pour faire de cette corvée un mauvais souvenir. </p>
+                                Vous et votre famille emménagez dans une nouvelle maison et vous ne savez pas quoi faire de vos <b>anciens mobiliers</b> ? Le grenier de la maison parentale n'a pas été touché depuis les années 80 et vous êtes bien décidé à le vider une bonne fois pour toute ! Tout cela a l'air bien ennuyeux. Il faudrait louer un camion, contacter des amis ou de la famille pour un peu d'aide. C'est là que <b>notre logistique</b> et <b>notre savoir</b> faire interviennent pour faire de cette corvée un mauvais souvenir. </p>
 
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6">
