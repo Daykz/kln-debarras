@@ -836,7 +836,7 @@ Navbar CSS
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
-  background: url(/images/color-bar.png);
+  background: url(/kln-debarras/images/color-bar.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -984,7 +984,7 @@ Navbar CSS
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
-  background: url(/images/color-bar.png);
+  background: url(/kln-debarras/images/color-bar.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1094,7 +1094,7 @@ Main Banner CSS
   height: 100vh;
   position: relative;
   z-index: 1;
-  background-image: url(/images/principal2.jpg);
+  background-image: url(/kln-debarras/images/principal2.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1224,7 +1224,7 @@ Main Banner CSS
 }
 
 .freelancer-banner-content h1 span {
-  background-image: url(/images/bar.png);
+  background-image: url(/kln-debarras/images/bar.png);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1409,7 +1409,7 @@ Main Banner CSS
 }
 
 .software-banner-content h1 span {
-  background-image: url(/images/bar.png);
+  background-image: url(/kln-debarras/images/bar.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1457,7 +1457,7 @@ Main Banner CSS
   height: 850px;
   position: relative;
   z-index: 1;
-  background-image: url(/images/agency-main-bg.jpg);
+  background-image: url(/kln-debarras/images/agency-main-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1560,7 +1560,7 @@ Main Banner CSS
   height: 880px;
   position: relative;
   z-index: 1;
-  background-image: url(/images/agency-main-bg.jpg);
+  background-image: url(/kln-debarras/images/agency-main-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1724,7 +1724,7 @@ Main Banner CSS
 .car-subscription-banner {
   height: 750px;
   position: relative;
-  background: transparent url(/images/shape.png) right top no-repeat;
+  background: transparent url(/kln-debarras/images/shape.png) right top no-repeat;
 }
 
 .car-subscription-banner-content {
@@ -1881,7 +1881,7 @@ Main Banner CSS
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: url(/images/payment-banner.jpg);
+  background-image: url(/kln-debarras/images/payment-banner.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2503,7 +2503,7 @@ How Its Work CSS
   content: '';
   position: absolute;
   z-index: 1;
-  background: url(/images/arrow-big.png) no-repeat center center;
+  background: url(/kln-debarras/images/arrow-big.png) no-repeat center center;
   width: 217px;
   height: 210px;
   top: -50px;
@@ -3370,7 +3370,7 @@ Skill CSS
 .skill-image {
   width: 100%;
   height: 100%;
-  background-image: url(/images/skill-bg.jpg);
+  background-image: url(/kln-debarras/images/skill-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3692,7 +3692,7 @@ CTA CSS
 .cta-area {
   position: relative;
   z-index: 1;
-  background-image: url(/images/lavraieimagedufond.jpg);
+  background-image: url(/kln-debarras/images/lavraieimagedufond.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3997,7 +3997,7 @@ CTA CSS
 .cta-area-four {
   position: relative;
   z-index: 1;
-  background-image: url(/images/cta-bg.jpg);
+  background-image: url(/kln-debarras/images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4170,7 +4170,7 @@ Funfacts CSS
 .funfacts-area-two {
   position: relative;
   z-index: 1;
-  background-image: url(/images/cta-bg.jpg);
+  background-image: url(/kln-debarras/images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4312,7 +4312,7 @@ Funfacts CSS
 .payment-processing-funfacts {
   position: relative;
   z-index: 1;
-  background-image: url(/images/cta-bg.jpg);
+  background-image: url(/kln-debarras/images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4486,7 +4486,7 @@ Feedback CSS
 }
 
 .testimonial-area.bg-image {
-  background-image: url(/images/bg.jpg);
+  background-image: url(/kln-debarras/images/bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4749,7 +4749,7 @@ FAQ CSS
 .faq-image {
   width: 100%;
   height: 100%;
-  background-image: url(/images/faq-bg.jpg);
+  background-image: url(/kln-debarras/images/faq-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5730,7 +5730,7 @@ Page Title CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/images/agency-main-bg.jpg);
+  background-image: url(/kln-debarras/images/agency-main-bg.jpg);
   position: relative;
   z-index: 1;
   text-align: center;
@@ -6342,7 +6342,7 @@ Login CSS
   height: 100vh;
   position: relative;
   z-index: 1;
-  background-image: url(/images/agency-main-bg.jpg);
+  background-image: url(/kln-debarras/images/agency-main-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6426,7 +6426,7 @@ Signup CSS
   height: 100vh;
   position: relative;
   z-index: 1;
-  background-image: url(/images/agency-main-bg.jpg);
+  background-image: url(/kln-debarras/images/agency-main-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6505,7 +6505,7 @@ Coming Soon CSS
   z-index: 1;
   height: 100vh;
   text-align: center;
-  background-image: url(/images/agency-main-bg.jpg);
+  background-image: url(/kln-debarras/images/agency-main-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
