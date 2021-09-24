@@ -12,7 +12,6 @@ import { Preloader, Placeholder } from 'react-preloading-screen';
 import App from 'next/app';
 import Head from 'next/head';
 import Loader from '../components/Layouts/Loader';
-import GoTop from '../components/Layouts/GoTop';
 
 export default class MyApp extends App {
     render () {
@@ -64,9 +63,6 @@ const jsonLd =    {
 
                 <Preloader>
                     <Component {...pageProps} />
-                    
-                    <GoTop scrollStepInPx="50" delayInMs="16.66" />
-
                     <Placeholder>
                         <Loader />
                     </Placeholder>
