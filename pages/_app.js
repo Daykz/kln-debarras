@@ -46,7 +46,7 @@ const jsonLd = {
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                     <meta name="keywords" content="Débarras, déménagement, encombrants" />
-                    <link rel="canonical" href="http://www.kln-debarras.fr" />
+                    <link rel="canonical" href="https://kln-debarras.fr" />
                     
                     <title>Débarras et déménagement dans votre région Centre</title>
                     <meta
