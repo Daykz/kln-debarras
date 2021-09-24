@@ -5,4 +5,6 @@ module.exports = {
         includePaths: [path.join(__dirname, 'styles')],
     },
     trailingSlash: true,
+    basePath: '/kln-debarras',
+    assetPrefix: '/kln-debarras/',
 }
