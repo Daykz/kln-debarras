@@ -9,7 +9,7 @@ class Research extends Component {
                 <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12 research-process-content pl-15">
                             <div className="research-process-image">
-                                <img src='/images/bourbier.jpg' alt="image" />
+                                <img src='/kln-debarras/images/bourbier.jpg' alt="image" />
                             </div>
 
                             <div className="hide-mobile">

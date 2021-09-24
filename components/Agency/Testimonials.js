@@ -51,7 +51,7 @@ class Testimonials extends Component {
                         >
                             <div className="col-lg-12 col-md-12">
                                 <div className="feedback-item">
-                                    <img src='/images/client1.png' alt="client" />
+                                    <img src='/kln-debarras/images/client1.png' alt="client" />
                                     <p>équipe très sympathique et efficace, ma nièce me les a conseillé et c'est bien la seule fois qu'elle a été de bon conseil lol</p>
 
                                     <div className="client-info">

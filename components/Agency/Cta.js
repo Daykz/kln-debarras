@@ -26,7 +26,7 @@ class Cta extends Component {
                             <div className="row justify-content-center">
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-cta-box">
-                                    <img src='/images/emmaus.png' alt="image" height="80px" width="80px" />
+                                    <img src='/kln-debarras/images/emmaus.png' alt="image" height="80px" width="80px" />
                                         <h3>Emmaus</h3>
                                         <p className="damnson">Fidèle à la volonté de l'abbé Pierre, Emmaüs est devenu à la fois une fabrique d'innovations sociales et de solidarités pour aider des publics en situation de grande précarité, et un front engagé et militant en faveur d'une société plus humaine et plus juste.</p>
                                     </div>
@@ -34,7 +34,7 @@ class Cta extends Component {
 
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-cta-box">
-                                    <img src='/images/secours-populaire.png' alt="image" height="120px" width="120px" />
+                                    <img src='/kln-debarras/images/secours-populaire.png' alt="image" height="120px" width="120px" />
                                         <h3>Secours Populaire</h3>
                                         <p>Le Secours populaire français a une approche globale des problématiques de pauvreté. Il intervient dans les domaines de l'aide alimentaire, vestimentaire, l'accès et le maintien dans le logement, l'accès aux soins, l'insertion socioprofessionnelle, l'accès à la culture et plus généralement l'accès aux droits.</p>
                                     </div>

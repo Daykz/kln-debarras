@@ -53,7 +53,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src='/images/agency-partner1.png' alt="logo" />
+                                            <img src='/kln-debarras/images/agency-partner1.png' alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
@@ -63,7 +63,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src='/images/agency-partner2.png' alt="logo" />
+                                            <img src='/kln-debarras/images/agency-partner2.png' alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
@@ -73,7 +73,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src='/images/agency-partner3.png' alt="logo" />
+                                            <img src='/kln-debarras/images/agency-partner3.png' alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
@@ -83,7 +83,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src='/images/agency-partner4.png' alt="logo" />
+                                            <img src='/kln-debarras/images/agency-partner4.png' alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
@@ -93,7 +93,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src='/images/agency-partner5.png' alt="logo" />
+                                            <img src='/kln-debarras/images/agency-partner5.png' alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
@@ -103,7 +103,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src='/images/agency-partner6.png' alt="logo" />
+                                            <img src='/kln-debarras/images/agency-partner6.png' alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
