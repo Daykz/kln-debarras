@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kln-debarras.fr
+
+# Sitemaps
+Sitemap: https://kln-debarras.fr/sitemap.xml

@@ -16,21 +16,7 @@ import Loader from '../components/Layouts/Loader';
 export default class MyApp extends App {
     render () {
         const { Component, pageProps } = this.props
-        return (
-            <>
-                <Head>
-                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                    <meta name="keywords" content="Débarras, déménagement, encombrants" />
-                    <link rel="canonical" href="http://www.kln-debarras.fr" />
-                    
-                    <title>Débarras et déménagement dans votre région Centre</title>
-                    <meta
-                    name="description"
-                    content="KLN débarras s'occupe de vos débarras, du tri des encombrants, et de les déposer en centre de tri. Devis gratuit."
-                    />
-                    <script type="application/ld+json">
-                        {
-{
+const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "KLN Débarras",
@@ -55,8 +41,22 @@ export default class MyApp extends App {
     "url": "https://kln-debarras.fr",
     "telephone": "0769773262"
 }
-                        }    
-                    </script>
+        return (
+            <>
+                <Head>
+                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                    <meta name="keywords" content="Débarras, déménagement, encombrants" />
+                    <link rel="canonical" href="http://www.kln-debarras.fr" />
+                    
+                    <title>Débarras et déménagement dans votre région Centre</title>
+                    <meta
+                    name="description"
+                    content="KLN débarras s'occupe de vos débarras, du tri des encombrants, et de les déposer en centre de tri. Devis gratuit."
+                    />
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                    />
                 </Head>
 
                 <Preloader>
