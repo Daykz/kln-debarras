@@ -19,12 +19,6 @@ $font-size: 15px;
 $transition: .5s;
 
 @media only #{$media} and ($feature_max : $value_one) {
-    .ptb-100 {
-        padding: {
-            top: 60px;
-            bottom: 60px;
-        }
-    }
 
     p {
         font-size: 14px;
