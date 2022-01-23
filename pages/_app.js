@@ -8,10 +8,8 @@ import "react-sweet-progress/lib/style.css";
 import '../public/css/style.css';
 import '../public/css/responsive.css';
 
-import { Preloader, Placeholder } from 'react-preloading-screen';
 import App from 'next/app';
 import Head from 'next/head';
-import Loader from '../components/Layouts/Loader';
 
 export default class MyApp extends App {
     render () {
@@ -59,12 +57,7 @@ const jsonLd = {
                     />
                 </Head>
 
-                <Preloader>
                     <Component {...pageProps} />
-                    <Placeholder>
-                        <Loader />
-                    </Placeholder>
-                </Preloader>
             </>
         );
     }
