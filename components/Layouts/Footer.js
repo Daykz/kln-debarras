@@ -8,7 +8,7 @@ class Footer extends Component {
             <footer id='contact' className="footer-area bg-fffcf4">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget">
 
         
@@ -29,7 +29,7 @@ class Footer extends Component {
                                 </ul>
                             </div>
                         </div>
-                        
+                     
                         <div className="col-lg-2 col-sm-6">
                             <div className="single-footer-widget pl-3">
                                 <h3 className="svplaissezmoi">Lien Rapide</h3>
@@ -100,10 +100,31 @@ class Footer extends Component {
                                 </ul>
                                 </div>
                         </div>
+
+                        <div className="col-lg-3 col-sm-6">
+                            <div className="single-footer-widget">
+
+        
+                                <ul className="contact-info">
+                                    <h3>Les valeurs de l'entreprise</h3>
+                                    <li>
+                                        <p className="valeurs">Kln-debarras est une entreprise éco-responsable par des gestes quotidiens "peinture, nettoyage, réparation", vos anciens meubles ou objets retrouve un nouveau foyer. </p>
+                                    </li>
+                                    <li>
+                                        <p className="valeurs">Nous nous engageons aux côtés de l'association ligue contre le cancer à reverser 3% du chiffre d'affaires annuel.</p>
+                                    </li>
+                                    <li>
+                                        <p style={{marginBottom: '1vh'}} className="valeurs">
+                                        Tous ensemble pour un monde meilleur.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                         
                         <div className="col-lg-2 col-sm-6">
                                 <div className="lazone"><span id='logo-navbar' className='logo-title logo-sticky'>K.L.N Débarras</span>
-                                      
+                                      {/* <p></p> */}
                                     </div> 
                         
                         </div>
