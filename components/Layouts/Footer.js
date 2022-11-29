@@ -36,27 +36,27 @@ class Footer extends Component {
                                 <ul className="list">
                                     <li>
                                         <Link href="#">
-                                            <a className="lafinx">Home</a>
+                                            <span className="lafinx">Home</span>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="#about">
-                                            <a>En profondeur</a>
+                                            En profondeur
                                         </Link>
                                     </li>
                                     <li>
-                                        <a href="#features">
-                                            <a>F.A.Q</a>
-                                        </a>
+                                        <Link href="#features">
+                                            F.A.Q
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#testimonials">
-                                            <a>Commentaires</a>
-                                        </a>
+                                        <Link href="#testimonials">
+                                            Commentaires
+                                        </Link>
                                     </li>
                                     <li>
                                         <Link href="#">
-                                            <a>Nous contactez</a>
+                                            Nous contactez
                                         </Link>
                                     </li>
                                 </ul>
@@ -69,32 +69,32 @@ class Footer extends Component {
                                 <ul className="list">
                                     <li>
                                         
-                                            <a className="lafinx">Allier 03</a>
+                                            <span className="lafinx">Allier 03</span>
                                         
                                     </li>
                                     <li>
                                         
-                                            <a>Cher 18</a>
+                                            <span>Cher 18</span>
                                         
                                     </li>
                                     <li>
                                         
-                                            <a>Indre 36</a>
+                                            <span>Indre 36</span>
                                         
                                     </li>
                                     <li>
                                         
-                                            <a>Indre et Loire 37</a>
+                                            <span>Indre et Loire 37</span>
                                         
                                     </li>
                                     <li>
                                         
-                                            <a>Loir et Cher 41</a>
+                                            <span>Loir et Cher 41</span>
                                         
                                     </li>
                                     <li>
                                         
-                                            <a>Loiret 45</a>
+                                            <span>Loiret 45</span>
                                         
                                     </li>
                                 </ul>

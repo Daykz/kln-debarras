@@ -17,13 +17,13 @@ export default class MyApp extends App {
 const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "KLN Débarras",
+    "name": "Débarras et déménagement dans votre région Centre - KLN Débarras",
     "image": [
         "https://kln-debarras.fr/images/1x1/principal2_1x1.jpg",
         "https://kln-debarras.fr/images/4x3/principal2_4x3.jpg",
         "https://kln-debarras.fr/images/16x9/principal2_16x9.jpg"
     ],
-    "adress":{
+    "address":{
         "@type": "PostalAddress",
         "streetAddress": "Domaine Villetroche",
         "addressLocality": "Paudy",
@@ -43,10 +43,10 @@ const jsonLd = {
             <>
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                    <meta name="keywords" content="Débarras, déménagement, encombrants" />
+                    <meta name="keywords" content="Debarras, demenagement, encombrants" />
                     <link rel="canonical" href="https://kln-debarras.fr" />
                     
-                    <title>Débarras et déménagement dans votre région Centre</title>
+                    <title>Débarras et déménagement dans votre région Centre - KLN Débarras</title>
                     <meta
                     name="description"
                     content="KLN débarras s'occupe de vos débarras, du tri des encombrants, et de les déposer en centre de tri. Devis gratuit."
