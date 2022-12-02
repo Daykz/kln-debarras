@@ -15,7 +15,7 @@ class About extends Component {
 
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content pl-15">
-                                <h2 className="okok2">Tous les détails de notre service !</h2>
+                                <h2 className="okok2">Tous les détails de notre débarras !</h2>
                                 <p className="queseeso"><b>KLN débarras</b> est une entreprise <b>professionnelle</b> dédiée au service complet de <b>débarras d'habitation</b>.
                                 <br />
                                 Que ce soit pour un <b>vide maison</b>, une succession ou un <b>déménagement</b>, un départ en maison de retraite ou seulement vous faire gagner de la place, nous nous occupons du <b>débarras dans son intégralité</b> et dans tout le <b>Centre Val de Loire</b>.
@@ -48,7 +48,7 @@ class About extends Component {
                                                     <img src='/images/document.png' alt="image" height="25px" width="25px" />
                                                 </div>
 
-                                                <h3 className="okok">Devis</h3>
+                                                <h4 className="okok">Devis</h4>
                                             </div>
 
                                             <p className="okok">Avant d'intervenir pour votre <b>débarras</b>, nous réalisons un <b>devis gratuit</b> et sans engagement*, celui ci sera établi en fonction du volume à déblayer en mètre cube et des valeurs récupérables. </p>
@@ -62,7 +62,7 @@ class About extends Component {
                                                     <img src='images/cardboard.png' alt="images" width="25px" height="25px"/>
                                                 </div>
 
-                                                <h3 className="okok">Débarras</h3>
+                                                <h4 className="okok">Débarras</h4>
                                             </div>
 
                                             <p className="okok3">Le débarras pourra se faire dans <b>tout type d'habitation</b> ( appartement, maison, pavillon, ferme , loft, duplex, château, manoir et entreprise ). Le débarras concerne aussi <b>toutes vos pièces</b> (grenier, grange, cave, comble, garage et bureau).</p>

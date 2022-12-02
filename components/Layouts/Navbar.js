@@ -62,7 +62,9 @@ class Navbar extends Component {
             <>
                 <nav id="navbar" className="navbar navbar-expand-lg navbar-style-one navbar-light bg-light">
                     <div className="container">
+                        <Link href='/'>
                             <span id='logo-navbar' className='logo-title'>K.L.N Débarras</span>
+                        </Link>
                     {/* <Link href="/">
                             <a className="navbar-brand">
                             </a>
@@ -89,7 +91,7 @@ class Navbar extends Component {
                                         className="nav-link active" 
                                         href="#home"
                                     >
-                                        menu
+                                        débarras
                                     </AnchorLink>
                                 </li>
                                 <li className="nav-item">

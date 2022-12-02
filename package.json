@@ -7,7 +7,7 @@
         "dev": "next dev",
         "build": "next build",
         "export": "next export",
-        "start": "next start -p 2000",
+        "start": "next start -p 3001",
         "postbuild": "next-sitemap"
     },
     "author": "EnvyTheme.com",
