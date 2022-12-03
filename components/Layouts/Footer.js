@@ -110,14 +110,11 @@ class Footer extends Component {
                                     <li>
                                         <p className="valeurs">Kln-debarras est une entreprise éco-responsable par des gestes quotidiens "peinture, nettoyage, réparation", vos anciens meubles ou objets retrouve un nouveau foyer. </p>
                                     </li>
-                                    <li>
-                                        <p className="valeurs">Nous nous engageons aux côtés de l'association ligue contre le cancer à reverser 3% du chiffre d'affaires annuel.</p>
-                                    </li>
-                                    <li>
+                                    {/* <li>
                                         <p style={{marginBottom: '1vh'}} className="valeurs">
                                         Tous ensemble pour un monde meilleur.
                                         </p>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
