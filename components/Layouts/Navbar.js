@@ -57,7 +57,6 @@ class Navbar extends Component {
         const { collapsed } = this.state;
         const classOne = collapsed ? 'collapse navbar-collapse' : 'navbar-collapse collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
-        console.log({collapsed})
         return (
             <>
                 <nav id="navbar" className="navbar navbar-expand-lg navbar-style-one navbar-light bg-light">

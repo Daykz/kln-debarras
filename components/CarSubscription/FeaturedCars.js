@@ -34,9 +34,9 @@ class FeaturedCars extends Component {
     }
     render() {
         return (
-            <div class="sauteca">
+            <div className="sauteca">
             <section className="featured-cars ptb-100 bg-f5fbff">
-                        <div class="teste2">
+                        <div className="teste2">
                 <div className="container">
                     <div className="car-subscription-section-title">
                         {/* <span>Portfolio</span> */}

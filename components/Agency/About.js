@@ -59,7 +59,7 @@ class About extends Component {
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <img src='images/cardboard.png' alt="images" width="25px" height="25px"/>
+                                                    <img src='/images/cardboard.png' alt="images" width="25px" height="25px"/>
                                                 </div>
 
                                                 <h4 className="okok">Débarras</h4>
@@ -73,7 +73,7 @@ class About extends Component {
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <img src="images/smiley.png" alt="images" width="25px" height="25px" />
+                                                    <img src="/images/smiley.png" alt="images" width="25px" height="25px" />
                                                 </div>
 
                                                 <h4 className="okok">Satisfaction Client</h4>

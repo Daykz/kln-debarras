@@ -6724,6 +6724,14 @@ Footer CSS
   color: black;
   font-size: 14px;
   position: relative;
+  text-decoration: underline;
+}
+
+.single-footer-widget ul.list li a:hover {
+  color: #8f5128;
+  font-size: 14px;
+  position: relative;
+  text-decoration: underline;
 }
 
 

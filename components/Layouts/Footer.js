@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import villesInfos from '../../utils/villes';
 
 class Footer extends Component {
     render() {
@@ -13,17 +14,17 @@ class Footer extends Component {
 
         
                                 <ul className="contact-info">
-                                    <h3>Information</h3>
+                                    <h3>Informations</h3>
                                     <li>
                                         <Link href="tel:0769773262">
                                             <a>07 69 77 32 62</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <a href="mailto:kln.debarras@gmail.com"target='_blank' >kln.debarras@gmail.com</a>
+                                        <a href="mailto:kln.debarras@gmail.com"target='_blank'>kln.debarras@gmail.com</a>
                                     </li>
                                     <li>
-                                        <a href="kln-debarras.vercel.app" target='_blank' >kln-debarras.vercel.app</a>
+                                        <a href="kln-debarras.fr" target='_blank' >kln-debarras.fr</a>
                                     </li>
                                     <li>78995213200031</li>
                                 </ul>
@@ -36,7 +37,7 @@ class Footer extends Component {
                                 <ul className="list">
                                     <li>
                                         <Link href="#">
-                                            <span className="lafinx">Home</span>
+                                            Débarras
                                         </Link>
                                     </li>
                                     <li>
@@ -67,36 +68,12 @@ class Footer extends Component {
                             <div className="single-footer-widget pl-3">
                                 <h3 className="svplaissezmoi">Disponibilité</h3>
                                 <ul className="list">
-                                    <li>
-                                        
-                                            <span className="lafinx">Allier 03</span>
-                                        
-                                    </li>
-                                    <li>
-                                        
-                                            <span>Cher 18</span>
-                                        
-                                    </li>
-                                    <li>
-                                        
-                                            <span>Indre 36</span>
-                                        
-                                    </li>
-                                    <li>
-                                        
-                                            <span>Indre et Loire 37</span>
-                                        
-                                    </li>
-                                    <li>
-                                        
-                                            <span>Loir et Cher 41</span>
-                                        
-                                    </li>
-                                    <li>
-                                        
-                                            <span>Loiret 45</span>
-                                        
-                                    </li>
+                                    {villesInfos.map(ville => (
+
+                                        <li  key={ville.url}>
+                                        <Link href={ville.url}>{ville.link}</Link>
+                                        </li>
+                                    ))}
                                 </ul>
                                 </div>
                         </div>
